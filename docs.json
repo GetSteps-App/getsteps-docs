@@ -22,6 +22,14 @@
         "tab": "Documentation",
         "groups": [
           {
+            "group": "Overview",
+            "pages": [
+              "index",
+              "docs/features/getting-started",
+              "docs/features/steps-pro"
+            ]
+          },
+          {
             "group": "Core Features",
             "pages": [
               "docs/features/home-dashboard",
@@ -69,14 +77,14 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Getting Started",
-          "href": "/docs/features/getting-started",
-          "icon": "rocket"
+          "anchor": "Blog",
+          "href": "https://getsteps.app/blog",
+          "icon": "newspaper"
         },
         {
-          "anchor": "Steps Pro",
-          "href": "/docs/features/steps-pro",
-          "icon": "star"
+          "anchor": "Fitness Tools",
+          "href": "https://getsteps.app/tools",
+          "icon": "calculator"
         },
         {
           "anchor": "App Store",
