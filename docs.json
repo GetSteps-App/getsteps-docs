@@ -25,50 +25,50 @@
             "group": "Overview",
             "root": "index",
             "pages": [
-              "features/getting-started",
-              "features/steps-pro"
+              "/docs/features/getting-started",
+              "/docs/features/steps-pro"
             ]
           },
           {
             "group": "Core Features",
             "pages": [
-              "features/home-dashboard",
-              "features/streaks",
-              "features/workout-session",
+              "/docs/features/home-dashboard",
+              "/docs/features/streaks",
+              "/docs/features/workout-session",
               "features/activity-list",
-              "features/activity-detail",
-              "features/history",
-              "features/insights-overview"
+              "/docs/features/activity-detail",
+              "/docs/features/history",
+              "/docs/features/insights-overview"
             ]
           },
           {
             "group": "Goals & Motivation",
             "pages": [
-              "features/daily-goal",
-              "features/app-lock",
-              "features/notifications"
+              "/docs/features/daily-goal",
+              "/docs/features/app-lock",
+              "/docs/features/notifications"
             ]
           },
           {
             "group": "Customization",
             "pages": [
-              "features/color-themes",
-              "features/app-icon-selector",
-              "features/settings-overview"
+              "/docs/features/color-themes",
+              "/docs/features/app-icon-selector",
+              "/docs/features/settings-overview"
             ]
           },
           {
             "group": "Platform Features",
             "pages": [
-              "features/widgets",
-              "features/watch-app",
-              "features/siri-shortcuts"
+              "/docs/features/widgets",
+              "/docs/features/watch-app",
+              "/docs/features/siri-shortcuts"
             ]
           },
           {
             "group": "Sharing & Data",
             "pages": [
-              "features/sharing"
+              "/docs/features/sharing"
             ]
           }
         ]
