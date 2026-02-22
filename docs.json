@@ -23,8 +23,8 @@
         "groups": [
           {
             "group": "Overview",
+            "root": "index",
             "pages": [
-              "index",
               "features/getting-started",
               "features/steps-pro"
             ]
