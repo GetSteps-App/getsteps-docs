@@ -3,11 +3,21 @@
   "theme": "mint",
   "name": "Steps Documentation",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#F97316",
+    "light": "#FB923C",
+    "dark": "#EA580C"
   },
-  "favicon": "/favicon.svg",
+  "font": {
+    "headings": {
+      "family": "Bricolage Grotesque",
+      "url": "https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap"
+    },
+    "body": {
+      "family": "Bricolage Grotesque",
+      "url": "https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap"
+    }
+  },
+  "favicon": "/favicon.png",
   "navigation": {
     "tabs": [
       
@@ -23,8 +33,8 @@
     }
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/logo/light.png",
+    "dark": "/logo/dark.png"
   },
   "navbar": {
     "links": [
@@ -36,7 +46,7 @@
     "primary": {
       "type": "button",
       "label": "Download",
-      "href": "https://apps.apple.com/app/steps-pedometer-step-counter/id1234567890"
+      "href": "https://apps.apple.com/us/app/steps-workout-pedometer/id6746096378"
     }
   },
   "contextual": {
@@ -53,7 +63,7 @@
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/getstepsapp"
+      "x": "https://x.com/hieudinh_"
     }
   }
 }
