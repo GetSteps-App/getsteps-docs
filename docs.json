@@ -25,50 +25,50 @@
             "group": "Overview",
             "root": "index",
             "pages": [
-              "/docs/features/getting-started",
-              "/docs/features/steps-pro"
+              "docs/features/getting-started",
+              "docs/features/steps-pro"
             ]
           },
           {
             "group": "Core Features",
             "pages": [
-              "/docs/features/home-dashboard",
-              "/docs/features/streaks",
-              "/docs/features/workout-session",
-              "features/activity-list",
-              "/docs/features/activity-detail",
-              "/docs/features/history",
-              "/docs/features/insights-overview"
+              "docs/features/home-dashboard",
+              "docs/features/streaks",
+              "docs/features/workout-session",
+              "docs/features/activity-list",
+              "docs/features/activity-detail",
+              "docs/features/history",
+              "docs/features/insights-overview"
             ]
           },
           {
             "group": "Goals & Motivation",
             "pages": [
-              "/docs/features/daily-goal",
-              "/docs/features/app-lock",
-              "/docs/features/notifications"
+              "docs/features/daily-goal",
+              "docs/features/app-lock",
+              "docs/features/notifications"
             ]
           },
           {
             "group": "Customization",
             "pages": [
-              "/docs/features/color-themes",
-              "/docs/features/app-icon-selector",
-              "/docs/features/settings-overview"
+              "docs/features/color-themes",
+              "docs/features/app-icon-selector",
+              "docs/features/settings-overview"
             ]
           },
           {
             "group": "Platform Features",
             "pages": [
-              "/docs/features/widgets",
-              "/docs/features/watch-app",
-              "/docs/features/siri-shortcuts"
+              "docs/features/widgets",
+              "docs/features/watch-app",
+              "docs/features/siri-shortcuts"
             ]
           },
           {
             "group": "Sharing & Data",
             "pages": [
-              "/docs/features/sharing"
+              "docs/features/sharing"
             ]
           }
         ]
