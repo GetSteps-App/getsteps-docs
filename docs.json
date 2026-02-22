@@ -25,50 +25,50 @@
             "group": "Overview",
             "pages": [
               "index",
-              "docs/features/getting-started",
-              "docs/features/steps-pro"
+              "features/getting-started",
+              "features/steps-pro"
             ]
           },
           {
             "group": "Core Features",
             "pages": [
-              "docs/features/home-dashboard",
-              "docs/features/streaks",
-              "docs/features/workout-session",
-              "docs/features/activity-list",
-              "docs/features/activity-detail",
-              "docs/features/history",
-              "docs/features/insights-overview"
+              "features/home-dashboard",
+              "features/streaks",
+              "features/workout-session",
+              "features/activity-list",
+              "features/activity-detail",
+              "features/history",
+              "features/insights-overview"
             ]
           },
           {
             "group": "Goals & Motivation",
             "pages": [
-              "docs/features/daily-goal",
-              "docs/features/app-lock",
-              "docs/features/notifications"
+              "features/daily-goal",
+              "features/app-lock",
+              "features/notifications"
             ]
           },
           {
             "group": "Customization",
             "pages": [
-              "docs/features/color-themes",
-              "docs/features/app-icon-selector",
-              "docs/features/settings-overview"
+              "features/color-themes",
+              "features/app-icon-selector",
+              "features/settings-overview"
             ]
           },
           {
             "group": "Platform Features",
             "pages": [
-              "docs/features/widgets",
-              "docs/features/watch-app",
-              "docs/features/siri-shortcuts"
+              "features/widgets",
+              "features/watch-app",
+              "features/siri-shortcuts"
             ]
           },
           {
             "group": "Sharing & Data",
             "pages": [
-              "docs/features/sharing"
+              "features/sharing"
             ]
           }
         ]
