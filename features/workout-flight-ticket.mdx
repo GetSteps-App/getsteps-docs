@@ -1,0 +1,57 @@
+---
+title: "Workout Flight Ticket"
+description: "A boarding pass-styled card summarising your yearly workout totals"
+icon: "plane"
+---
+
+## Overview
+
+The Workout Flight Ticket is a boarding pass-styled card in the Insights screen that gives you a stylised summary of all your workouts for the year. It uses airline ticket visual language — a route, a perforated tear line, and a QR code — to make your yearly fitness feel like a journey worth celebrating.
+
+It only appears in Insights when you have at least one workout recorded for the selected year.
+
+## User Experience
+
+The ticket sits at the top of the Workouts section in Insights, directly after the "Workouts" section header.
+
+<Steps>
+  <Step title="Header">
+    "BOARDING PASS" in a small caption and "[YEAR] FITNESS" as the headline, with an animated airplane icon on the right.
+  </Step>
+  <Step title="Route">
+    "JAN" on the left (START) and "DEC" on the right (FINISH), with a flight-path graphic in between: a dot, a line, a dumbbell icon, another line, and a dot. Your total workout count for the year is labelled below the path in orange.
+  </Step>
+  <Step title="Stats">
+    Three columns beneath the route show your yearly totals at a glance — DURATION, DISTANCE, and BURNED (calories). Values scale automatically to fit.
+  </Step>
+  <Step title="Stub">
+    A perforated tear line separates the main ticket from the boarding stub. The stub shows a rotating motivational boarding message on the left (e.g. "READY FOR TAKEOFF 🛫", "FIRST CLASS FITNESS ✨", "CLEARED FOR GAINS 💪") and the Steps app icon, "GetSteps.app" label, and a scannable QR code on the right.
+  </Step>
+</Steps>
+
+The QR code links to [getsteps.app](https://getsteps.app) and is generated on-device. It adapts automatically to light and dark mode.
+
+## How It Works
+
+<CardGroup cols={2}>
+  <Card title="Total Workouts" icon="dumbbell">
+    The total number of workouts you completed during the year, displayed prominently along the flight path.
+  </Card>
+  <Card title="Duration" icon="clock">
+    Your combined workout time for the year, shown as hours and minutes.
+  </Card>
+  <Card title="Distance" icon="route">
+    Total distance covered across all workouts, in km or miles based on your unit system.
+  </Card>
+  <Card title="Calories" icon="fire">
+    Total active calories burned across all workouts, in kcal.
+  </Card>
+</CardGroup>
+
+<Tip>
+  The boarding message in the stub rotates based on your total workout count, so it will vary from year to year as your activity level changes.
+</Tip>
+
+## Pro Features
+
+The Workout Flight Ticket is completely **free**. No Pro subscription required.

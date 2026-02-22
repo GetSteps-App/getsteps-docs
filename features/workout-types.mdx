@@ -1,0 +1,50 @@
+---
+title: "Workout Types"
+description: "How Steps categorizes, colors, and names every supported activity type"
+icon: "tag"
+---
+
+## Overview
+
+Steps supports a wide range of HealthKit workout types and presents each with a consistent icon, color, and name throughout the app — in the workout list, activity rows, detail view headers, share images, and the Live Activity widget.
+
+## Startable Workouts
+
+These are the workout types you can begin directly in Steps:
+
+| Activity | Icon Style | Color |
+|---|---|---|
+| Outdoor Running | Running figure | Purple |
+| Indoor Running | Treadmill | Purple |
+| Outdoor Walking | Walking figure | Blue |
+| Indoor Walking | Treadmill (walking) | Blue |
+| Outdoor Cycling | Bicycle | Green |
+| Indoor Cycling | Stationary bike | Green |
+| Hiking | Hiker | Mint |
+
+## Activity History Types
+
+Steps reads a broader set of workout types from your Apple Health history. In addition to the startable types above, these activity types appear in your records when imported from HealthKit:
+
+Swimming, HIIT, Strength Training, Yoga, Pilates, Elliptical, Rowing, Dance, Racket Sports, and more — 23 named types in total. Any type not in this list is grouped under **Other**.
+
+## How It Works
+
+<CardGroup cols={2}>
+  <Card title="Consistent Colors" icon="palette">
+    Each workout type has a fixed color used everywhere in the app — route polylines, stat card accents, share images, and the Live Activity widget all use the same color for a given activity.
+  </Card>
+  <Card title="Indoor vs. Outdoor Icons" icon="arrows-split-up-and-left">
+    Walking, running, and cycling each have distinct icons for their indoor and outdoor variants, making it easy to tell them apart at a glance.
+  </Card>
+  <Card title="Smart Metrics" icon="gauge">
+    Each activity type maps to the correct HealthKit quantity types for distance and speed. For example, cycling uses cycling distance and cycling speed, while walking and running share the walking/running distance type.
+  </Card>
+  <Card title="Activity List Filtering" icon="filter">
+    Only the four outdoor-friendly types (walking, running, cycling, hiking) appear in the Activity List. All other types are tracked in Health history but kept out of the activity feed.
+  </Card>
+</CardGroup>
+
+## Pro Features
+
+All workout type metadata — icons, colors, and names — is available to every user. No Pro subscription required.

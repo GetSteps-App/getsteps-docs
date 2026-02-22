@@ -1,0 +1,42 @@
+---
+title: "Step Count Card"
+description: "Your main stats display with swipe navigation and goal tracking"
+icon: "shoe-prints"
+---
+
+## Overview
+
+The step count card is the centerpiece of the home screen. It displays your steps, distance, calories, and flights climbed for the selected day or period, with a progress ring showing how close you are to your daily goal.
+
+## How It Works
+
+<AccordionGroup>
+  <Accordion title="Stats Display">
+    The card shows a large step count number at the top, with distance, calories, and flights climbed listed below. The heading updates to show the current day name, week number, or month depending on your selected view mode.
+  </Accordion>
+  <Accordion title="Swipe Navigation">
+    Swipe left or right on the card to move to the next or previous day, week, or month. A ghost card peeks behind during the gesture to indicate direction. Navigation to future dates is blocked.
+  </Accordion>
+  <Accordion title="Goal Progress Ring">
+    A colored shadow ring around the card shows your progress toward your daily step goal. The ring turns green when you hit your goal and blue while you're still working toward it.
+  </Accordion>
+  <Accordion title="Streak Badge">
+    A flame badge in the top-left corner shows your current streak — the number of consecutive days you've met your goal. The flame is orange when active and grey when your streak is at zero. Tap it to open the Streaks detail sheet.
+  </Accordion>
+  <Accordion title="Refresh Button">
+    Tap the refresh icon in the top-right corner to manually pull the latest step count from HealthKit. A confirmation toast appears when the update is complete.
+  </Accordion>
+  <Accordion title="Motivational Insight">
+    At the bottom of the card, a motivational message or a comparison to your historical average gives you context on how today's activity stacks up.
+  </Accordion>
+</AccordionGroup>
+
+<Tip>Tap anywhere on the card body to trigger a ripple animation. When you first hit your step goal, a celebration ripple fires from the center with haptic feedback.</Tip>
+
+## Tap the Heading to Switch Modes
+
+Tapping the date heading at the top of the card opens a picker where you can switch between Daily, Weekly, and Monthly view modes without opening any menus.
+
+## Pro Features
+
+<Note>The sum/average toggle — which lets you switch between total steps and daily average in Weekly or Monthly mode — requires a Steps Pro subscription. The streak badge and goal ring are available to all users when a daily step goal is set.</Note>

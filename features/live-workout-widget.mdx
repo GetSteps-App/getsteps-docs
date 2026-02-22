@@ -1,0 +1,51 @@
+---
+title: "Live Workout Widget"
+description: "Monitor your workout metrics on the Lock Screen and Dynamic Island without opening the app"
+icon: "mobile-screen"
+---
+
+## Overview
+
+When you start a workout in Steps, a Live Activity automatically appears on your Lock Screen and in the Dynamic Island. It mirrors your in-app metrics in real time, so you can glance at your stats without ever unlocking your phone.
+
+## User Experience
+
+1. Start any workout in Steps. The Live Activity appears on your Lock Screen and Dynamic Island within moments.
+2. The widget displays:
+   - Your workout type icon and name
+   - Elapsed time
+   - Distance
+   - Active energy (calories)
+   - Pace or speed (depending on activity type)
+3. Metrics update approximately every 2 seconds throughout your session.
+4. When you end your workout, the widget transitions to a finished state and dismisses itself automatically after 60 seconds.
+5. If Steps is closed unexpectedly mid-workout and you reopen it, the Live Activity resumes automatically alongside your recovered session.
+
+<Note>
+  If Live Activities are disabled in your iPhone's Settings, the widget is silently skipped and the workout continues normally in the app.
+</Note>
+
+## How It Works
+
+<CardGroup cols={2}>
+  <Card title="Dynamic Island" icon="circle-dot">
+    On supported iPhone models, your workout metrics appear in the Dynamic Island so you can monitor your session at a glance from any app.
+  </Card>
+  <Card title="Lock Screen" icon="lock">
+    A full Lock Screen widget shows all key metrics without needing to unlock your phone — ideal during outdoor workouts.
+  </Card>
+  <Card title="Auto-Dismiss" icon="clock-rotate-left">
+    After you end your workout, the widget stays visible for 60 seconds so you can see your final stats, then clears itself automatically.
+  </Card>
+  <Card title="Session Recovery" icon="rotate">
+    If the app is terminated mid-workout, the Live Activity resumes when you reopen Steps and your session is recovered — no manual action needed.
+  </Card>
+</CardGroup>
+
+## Stale Detection
+
+Each widget update sets a 15-second freshness window. If no new data arrives within that window (for example, if your phone loses connection to the app process), the system marks the widget as stale automatically.
+
+## Pro Features
+
+The Live Activity widget is available to every user. No Pro subscription required.

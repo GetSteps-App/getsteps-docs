@@ -1,0 +1,53 @@
+---
+title: "QR Code Sharing"
+description: "Share the Steps app with friends via a high-resolution QR code or a direct App Store link"
+icon: "qrcode"
+---
+
+## Overview
+
+QR Code Sharing lets you share the Steps app with anyone via a scannable QR code or a direct App Store link. It's accessible from the "Share Steps" row in Settings and generates a high-quality QR code entirely on-device with your current app icon embedded in the centre.
+
+## User Experience
+
+<Steps>
+  <Step title="Open the Share Sheet">
+    In Settings, tap "Share Steps". A half-height sheet appears with a thin material background.
+  </Step>
+  <Step title="Scan or Copy">
+    A 300×300pt white rounded card displays the generated QR code. While the QR is being generated, a spinner is shown briefly. Once ready, anyone can scan it with their camera to go straight to the App Store listing.
+  </Step>
+  <Step title="Copy QR Code">
+    Tap "Copy QR Code" to copy the QR image to your clipboard so you can paste it into a message, post, or document. A "Image copied" toast confirms the action.
+  </Step>
+  <Step title="Copy Link">
+    Tap "Copy Link" to copy the direct App Store URL to your clipboard. A "Link copied" toast confirms the action.
+  </Step>
+</Steps>
+
+The QR code automatically regenerates when your device switches between light and dark mode, keeping the colours correct at all times.
+
+## How It Works
+
+<CardGroup cols={2}>
+  <Card title="On-Device Generation" icon="lock">
+    The QR code is generated entirely on your device — no network request is made. It uses circular pixel and eye shapes for a polished look.
+  </Card>
+  <Card title="App Icon Embedded" icon="image">
+    Your currently selected app icon is centred inside the QR code, so it's immediately recognisable as a Steps share.
+  </Card>
+  <Card title="High Resolution" icon="expand">
+    The QR is generated at print quality (1024pt × screen scale, 300 DPI), so it looks sharp whether shared digitally or printed.
+  </Card>
+  <Card title="Light & Dark Mode" icon="circle-half-stroke">
+    The QR code colours adapt automatically — black-on-white in light mode, white-on-black in dark mode.
+  </Card>
+</CardGroup>
+
+<Tip>
+  The copied QR image is high-resolution and suitable for printing, posting on social media, or embedding in a presentation.
+</Tip>
+
+## Pro Features
+
+QR Code Sharing is completely **free**. No Pro subscription required.

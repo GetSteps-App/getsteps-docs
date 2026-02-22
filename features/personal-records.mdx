@@ -1,0 +1,64 @@
+---
+title: "Personal Records"
+description: "Your best workout achievements of the year, with live route maps for each record"
+icon: "trophy"
+---
+
+## Overview
+
+Personal Records surfaces your single best workout performance across 8 distinct categories for the selected year. It lives inside the Insights screen and pairs each record card with a live map showing the GPS route of that workout.
+
+## User Experience
+
+The section appears in Insights after the Workout Breakdown — it's only visible when you have at least one workout logged for the selected year.
+
+A horizontally scrollable grid (2 rows, with a peek of the next column to encourage scrolling) displays all 8 record cards at once. Each card shows:
+
+- An icon and category name
+- Your record value (e.g. pace, calories, distance)
+- The date the record was set
+
+Tapping a card selects it — it gets a coloured border and scales up slightly. The map directly below the grid updates to show the route for that workout, with a polyline drawn in the record's accent colour, a start annotation with the workout type icon, and a finish flag. If a workout has no GPS route, a "No route available" placeholder is shown instead.
+
+A context sentence above the map updates with each selection — for example, "Your fastest pace was 5:12 /km" — and the workout details (type, date, duration, distance, calories, weather) are shown in the map footer.
+
+## How It Works
+
+<CardGroup cols={2}>
+  <Card title="Fastest Pace" icon="bolt">
+    Your quickest workout pace in min/km (or min/mi in imperial).
+  </Card>
+  <Card title="Most Calories" icon="fire">
+    The single workout where you burned the most calories.
+  </Card>
+  <Card title="Earliest Start" icon="sun">
+    Your earliest morning workout of the year.
+  </Card>
+  <Card title="Most Elevation" icon="mountain">
+    The workout with the greatest elevation gain, in meters or feet.
+  </Card>
+  <Card title="Longest Duration" icon="timer">
+    Your longest workout by total time.
+  </Card>
+  <Card title="Farthest Distance" icon="route">
+    The workout where you covered the most ground.
+  </Card>
+  <Card title="Latest Finish" icon="moon">
+    Your latest-ending workout of the year.
+  </Card>
+  <Card title="Max Heart Rate" icon="heart-pulse">
+    The highest heart rate recorded during a workout.
+  </Card>
+</CardGroup>
+
+<Tip>
+  Tap any record card to see that workout's route on the map below. If the workout was indoor or had no GPS signal, a placeholder is shown instead.
+</Tip>
+
+<Note>
+  Values display "--" for any category where no data is available (for example, if your workouts didn't record heart rate, the Max Heart Rate card will show "--").
+</Note>
+
+## Pro Features
+
+Personal Records is completely **free**. No Pro subscription required.

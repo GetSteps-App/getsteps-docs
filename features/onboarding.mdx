@@ -1,0 +1,72 @@
+---
+title: "Onboarding"
+description: "A two-step first-launch experience that sets up your goal and connects Apple Health"
+icon: "door-open"
+---
+
+## Overview
+
+Onboarding is the first-launch flow that welcomes you to Steps, lets you set an optional daily step goal, and requests Apple Health permission. It runs whenever you open the app for the first time, or after tapping "Restart Onboarding" in Settings.
+
+## User Experience
+
+### Step 1 — Welcome
+
+<Steps>
+  <Step title="Welcome Screen">
+    The app opens to a full-screen welcome with "Welcome to Steps" fading in smoothly over about two seconds.
+  </Step>
+  <Step title="Emoji Animation">
+    After the welcome text fades, three infinite horizontal rows of activity emojis animate in from the bottom — walkers, runners, cyclists, swimmers, yoga poses, and more. Rows scroll in alternating directions and loop endlessly.
+  </Step>
+  <Step title="Headline & CTA">
+    A headline slides up — "Your daily 10,000 steps journey starts today" — followed by a "Get Started →" button. Tapping it moves you to Step 2.
+  </Step>
+</Steps>
+
+Two softly blurred colour circles drift slowly in the background throughout Step 1, giving the screen a lively, dynamic feel.
+
+### Step 2 — Goal & Permissions
+
+<Steps>
+  <Step title="Set a Daily Goal (Optional)">
+    A toggle lets you enable a daily step goal. If you turn it on, a wheel picker appears where you can choose your target from 1,000 to 20,000 steps in increments of 500.
+  </Step>
+  <Step title="Connect Apple Health">
+    Tap "Continue" to trigger the Apple Health permission prompt. Steps only reads your step count and workout data — it never writes to Apple Health.
+  </Step>
+  <Step title="Permission Granted">
+    Once you approve, the picker is replaced with two confirmation rows — "Private & Secure" and "All Set!" — and a "Start Tracking" button appears.
+  </Step>
+  <Step title="Permission Denied">
+    If you decline Health access, a "Continue without Health Access" button appears so you can still proceed. You can grant access later from iOS Settings.
+  </Step>
+  <Step title="Start Tracking">
+    Tapping "Start Tracking" completes onboarding. Your goal is saved, widgets are loaded, and the main app opens.
+  </Step>
+</Steps>
+
+<Note>
+  You can replay the onboarding flow at any time by going to Settings and tapping "Restart Onboarding".
+</Note>
+
+## How It Works
+
+<CardGroup cols={2}>
+  <Card title="Animated Emoji Rows" icon="face-smile">
+    Three independent rows of 52+ shuffled activity emojis scroll infinitely in alternating directions, creating an energetic welcome screen.
+  </Card>
+  <Card title="Goal Picker" icon="bullseye">
+    A smooth wheel picker lets you dial in your target from 1,000 to 20,000 steps. You can always change this later from Settings.
+  </Card>
+  <Card title="Apple Health" icon="heart-pulse">
+    Steps requests read-only access to your step count and workouts. Your data stays on your device and is never uploaded.
+  </Card>
+  <Card title="Widget Setup" icon="grid">
+    On completion, your home screen widgets are initialised automatically so they're ready to use right away.
+  </Card>
+</CardGroup>
+
+## Pro Features
+
+Onboarding is completely **free** with no Pro gate.

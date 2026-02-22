@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "Steps Documentation",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
@@ -11,58 +11,108 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Features",
         "groups": [
           {
-            "group": "Getting started",
+            "group": "Getting Started",
             "pages": [
               "index",
-              "quickstart",
-              "development"
+              "features/app-entry-point",
+              "features/onboarding"
             ]
           },
           {
-            "group": "Customization",
+            "group": "Home Dashboard",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
+              "features/home-dashboard",
+              "features/step-count-card",
+              "features/hourly-steps-chart",
+              "features/weekly-steps-chart",
+              "features/monthly-steps-chart",
+              "features/streaks",
+              "features/horizontal-calendar",
+              "features/weather-display"
             ]
           },
           {
-            "group": "Writing content",
+            "group": "History",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
+              "features/history-calendar"
             ]
           },
           {
-            "group": "AI tools",
+            "group": "Activity",
             "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API reference",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
+              "features/activity-list",
+              "features/activity-detail",
+              "features/activity-sharing",
+              "features/route-tracking"
             ]
           },
           {
-            "group": "Endpoint examples",
+            "group": "Workouts",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "features/workout-session",
+              "features/workout-list",
+              "features/workout-types",
+              "features/live-workout-widget"
+            ]
+          },
+          {
+            "group": "Insights",
+            "pages": [
+              "features/insights-overview",
+              "features/personal-records",
+              "features/fun-equivalents",
+              "features/yearly-receipt",
+              "features/workout-flight-ticket"
+            ]
+          },
+          {
+            "group": "Settings & Personalization",
+            "pages": [
+              "features/settings",
+              "features/goal-setting",
+              "features/app-icon-selector",
+              "features/color-themes",
+              "features/app-lock",
+              "features/notifications",
+              "features/qr-code-sharing"
+            ]
+          },
+          {
+            "group": "Widgets",
+            "pages": [
+              "features/widget-today-step-count",
+              "features/widget-hourly-step-chart",
+              "features/widget-weekly-step-chart",
+              "features/widget-monthly-step-chart",
+              "features/widget-monthly-step-calendar",
+              "features/widget-yearly-step-calendar",
+              "features/widget-streak",
+              "features/widget-workout-highlight",
+              "features/widget-live-workout"
+            ]
+          },
+          {
+            "group": "Apple Watch",
+            "pages": [
+              "features/watch-app",
+              "features/watch-connectivity"
+            ]
+          },
+          {
+            "group": "Integrations",
+            "pages": [
+              "features/siri-shortcuts",
+              "features/data-models"
+            ]
+          },
+          {
+            "group": "Subscription",
+            "pages": [
+              "features/paywall-subscription",
+              "features/purchase-manager"
             ]
           }
         ]
@@ -71,14 +121,9 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "anchor": "App Store",
+          "href": "https://apps.apple.com/app/steps-pedometer-step-counter/id1234567890",
+          "icon": "apple"
         }
       ]
     }
@@ -91,32 +136,30 @@
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "mailto:support@getsteps.app"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Download",
+      "href": "https://apps.apple.com/app/steps-pedometer-step-counter/id1234567890"
     }
   },
   "contextual": {
     "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
+      "copy",
+      "view",
+      "chatgpt",
+      "claude",
+      "perplexity",
+      "mcp",
+      "cursor",
+      "vscode"
+    ]
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "x": "https://x.com/getstepsapp"
     }
   }
 }

@@ -1,0 +1,75 @@
+---
+title: "Activity Sharing"
+description: "Export your workout as a styled image or GPX file to share with friends or other apps"
+icon: "share-nodes"
+---
+
+## Overview
+
+After completing a workout, you can export a polished summary image or a GPX file directly from the Activity Detail view. Choose from four visual templates, customize the look, and save to your photo library or share via any app.
+
+## User Experience
+
+1. Tap the **Share** button (orange icon) in the Activity Detail toolbar.
+2. A sheet opens with a segmented picker to choose your share mode.
+3. A live preview renders immediately as you change settings.
+4. Use the toolbar to **Save to Photos** or **Export GPX**.
+
+## Share Modes
+
+<CardGroup cols={2}>
+  <Card title="Transparent" icon="image">
+    A stats card with your workout name, key metrics, and an optional inline route shape preview. The transparent background makes it easy to paste on any background in other apps.
+  </Card>
+  <Card title="Overlay" icon="layer-group">
+    A map snapshot of your route with a gradient-dark panel at the bottom showing your stats in white text. Available only when a route was recorded.
+  </Card>
+  <Card title="Frame" icon="border-all">
+    A map snapshot with your workout date above and a stats line below, all on the system background color. Clean and minimal. Available only when a route was recorded.
+  </Card>
+  <Card title="Photo" icon="camera">
+    Pick any photo from your library and your stats are overlaid on it, just like Overlay mode. Great for combining a scenic photo with your workout data.
+  </Card>
+</CardGroup>
+
+## Customization Options
+
+For Overlay, Frame, and Photo modes, additional controls appear to fine-tune the output:
+
+<AccordionGroup>
+  <Accordion title="Aspect Ratio" icon="crop">
+    Choose from five ratios: **16:9**, **4:3**, **1:1** (default), **3:4**, and **9:16**. This controls the dimensions of the map snapshot and final exported image.
+  </Accordion>
+  <Accordion title="Map Type" icon="map">
+    Switch between **Standard** and **Satellite** map styles for Overlay and Frame modes.
+  </Accordion>
+  <Accordion title="Points of Interest" icon="location-dot">
+    On Standard maps, choose to **Include All** or **Exclude All** points of interest for a cleaner look.
+  </Accordion>
+  <Accordion title="Elevation Style" icon="mountain">
+    On Satellite maps, choose between **Flat** or **Realistic** terrain elevation rendering.
+  </Accordion>
+  <Accordion title="Appearance" icon="circle-half-stroke">
+    Switch between **Light** and **Dark** mode for the image. Defaults to the opposite of your current system appearance so the image stands out.
+  </Accordion>
+</AccordionGroup>
+
+## How It Works
+
+- All four image variants are generated in the background as soon as the sheet opens, so previews are instant.
+- Changing any setting (aspect ratio, map type, appearance, etc.) regenerates only the affected image — other previews remain cached.
+- Hiking workouts show **Elevation** as the third stat; all other workout types show **Pace**.
+
+## Pro Features
+
+<Tip>
+  Upgrade to Steps Pro to save images and export GPX files.
+</Tip>
+
+The share preview (all four modes) is visible to everyone. Saving and exporting require Pro:
+
+| Action | Free | Pro |
+|---|---|---|
+| View share preview | Yes | Yes |
+| Save to Photos | No | Yes |
+| Export GPX file | No | Yes |

@@ -1,0 +1,55 @@
+---
+title: "Data & Privacy"
+description: "How Steps stores, fetches, and manages your health data"
+icon: "database"
+---
+
+## Overview
+
+Steps reads your health data directly from Apple HealthKit on your device. All data stays on your iPhone — Steps does not send your step count, distance, calories, or any other health metrics to external servers.
+
+## What Data Steps Uses
+
+<AccordionGroup>
+  <Accordion title="Daily Step Records">
+    For each day, Steps stores:
+    - **Steps** — total step count
+    - **Distance** — kilometers walked or run
+    - **Calories** — active calories burned (kcal)
+    - **Flights climbed** — floors of stairs
+    - **Hourly breakdown** — steps per hour (0–23) for the daily chart
+    - **Motivational message** — a contextual message based on your progress
+  </Accordion>
+  <Accordion title="Workout Sessions">
+    Steps can read workout sessions from HealthKit, including activity type, duration, distance, calories, heart rate, pace, elevation, and indoor/outdoor variant. Supported activities include Walking, Running, Cycling, Swimming, Hiking, HIIT, Strength Training, Yoga, and more.
+  </Accordion>
+  <Accordion title="Weather Conditions">
+    When weather display is enabled, Steps stores your most recent weather condition and temperature locally on your device. This data is fetched from Apple WeatherKit using your current location and is never shared externally.
+  </Accordion>
+</AccordionGroup>
+
+## How Data Is Fetched
+
+Steps requests read-only access to the following HealthKit data types:
+
+- Step count
+- Distance walking/running
+- Active energy burned
+- Flights climbed
+- Workout sessions
+
+Data is fetched when you open the app, when you tap a date in the calendar, and silently in the background to keep widgets up to date. Steps never writes to HealthKit.
+
+## Caching & Performance
+
+Steps caches your daily records by week and by month so chart and history screens load instantly without re-querying HealthKit every time. Caches rebuild automatically in the background whenever new data arrives.
+
+## Motivational Messages
+
+Each day's record includes a motivational message chosen based on your step count relative to your goal. Messages are stored as keys and resolved to localized text, so they update correctly if you change your device language. There are around 200 message variants covering daily, weekly, and monthly contexts — both with and without a step goal set.
+
+## Goal History
+
+When you change your step goal in Settings, Steps logs the change with a timestamp. All historical streak and progress calculations use the goal that was active on each specific date, so past achievements are always evaluated fairly.
+
+<Note>Steps requests only **read** access to HealthKit. Your health data is never modified, uploaded, or shared by Steps.</Note>
