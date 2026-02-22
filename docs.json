@@ -7,26 +7,80 @@
     "light": "#FB923C",
     "dark": "#EA580C"
   },
-  "font": {
-    "headings": {
-      "family": "Bricolage Grotesque",
-      "url": "https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap"
+  "fonts": {
+    "heading": {
+      "family": "Bricolage Grotesque"
     },
     "body": {
-      "family": "Bricolage Grotesque",
-      "url": "https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap"
+      "family": "Bricolage Grotesque"
     }
   },
   "favicon": "/favicon.png",
   "navigation": {
     "tabs": [
-      
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Core Features",
+            "pages": [
+              "docs/features/home-dashboard",
+              "docs/features/streaks",
+              "docs/features/workout-session",
+              "docs/features/activity-list",
+              "docs/features/activity-detail",
+              "docs/features/history",
+              "docs/features/insights-overview"
+            ]
+          },
+          {
+            "group": "Goals & Motivation",
+            "pages": [
+              "docs/features/daily-goal",
+              "docs/features/app-lock",
+              "docs/features/notifications"
+            ]
+          },
+          {
+            "group": "Customization",
+            "pages": [
+              "docs/features/color-themes",
+              "docs/features/app-icon-selector",
+              "docs/features/settings-overview"
+            ]
+          },
+          {
+            "group": "Platform Features",
+            "pages": [
+              "docs/features/widgets",
+              "docs/features/watch-app",
+              "docs/features/siri-shortcuts"
+            ]
+          },
+          {
+            "group": "Sharing & Data",
+            "pages": [
+              "docs/features/sharing"
+            ]
+          }
+        ]
+      }
     ],
     "global": {
       "anchors": [
         {
+          "anchor": "Getting Started",
+          "href": "/docs/features/getting-started",
+          "icon": "rocket"
+        },
+        {
+          "anchor": "Steps Pro",
+          "href": "/docs/features/steps-pro",
+          "icon": "star"
+        },
+        {
           "anchor": "App Store",
-          "href": "https://apps.apple.com/app/steps-pedometer-step-counter/id1234567890",
+          "href": "https://apps.apple.com/us/app/steps-workout-pedometer/id6746096378",
           "icon": "apple"
         }
       ]
