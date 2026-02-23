@@ -1,0 +1,69 @@
+---
+title: "Premiers pas"
+description: "Configurez Steps, définissez votre objectif quotidien et commencez à suivre votre activité"
+---
+
+Steps facilite le suivi de vos pas quotidiens, de vos entraînements et de vos objectifs fitness directement depuis votre iPhone.
+
+## Intégration
+
+Lors de votre première ouverture de Steps, vous passerez par une configuration rapide pour personnaliser votre expérience :
+
+{/* TODO: Screenshot of onboarding screen - step goal picker */}
+<Frame caption="Flux d'intégration Steps">
+  <img src="/images/screenshots/getting-started-onboarding.jpg" alt="Steps onboarding screen" />
+</Frame>
+
+<Steps>
+  <Step title="Définissez votre objectif quotidien">
+    Choisissez un objectif de pas entre 1 000 et 20 000 pas à l'aide du sélecteur défilant. Vous pourrez toujours le modifier ultérieurement dans les Réglages.
+  </Step>
+  <Step title="Accordez les autorisations de santé">
+    Steps demande l'accès à Apple Health pour lire votre nombre de pas, la distance, les calories, les étages montés et les données d'entraînement. Appuyez sur **Tout autoriser** pour une expérience optimale.
+  </Step>
+  <Step title="Commencez à marcher">
+    C'est tout ! Steps commence à suivre automatiquement en utilisant les capteurs de mouvement de votre iPhone et les données Apple Health.
+  </Step>
+</Steps>
+
+## Autorisations HealthKit
+
+{/* TODO: Screenshot of HealthKit permissions dialog */}
+<Frame caption="Demande d'autorisations Apple Health">
+  <img src="/images/screenshots/getting-started-health-permissions.jpg" alt="HealthKit permissions dialog" />
+</Frame>
+
+Steps lit les données suivantes depuis Apple Health :
+
+- **Pas** - Votre nombre de pas quotidien
+- **Distance marche + course** - Distance parcourue à pied
+- **Énergie active brûlée** - Calories brûlées par l'activité
+- **Étages montés** - Les étages que vous avez gravis
+- **Fréquence cardiaque** - Utilisée pendant les entraînements
+- **Itinéraires d'entraînement** - Itinéraires GPS de vos entraînements enregistrés
+
+<Tip>Steps n'écrit jamais dans vos données Apple Health et ne les modifie pas. L'application lit uniquement vos informations d'activité existantes.</Tip>
+
+## Confidentialité
+
+Vos données de santé restent sur votre appareil. Steps ne télécharge pas vos données fitness sur un serveur. Tout le traitement s'effectue localement sur votre iPhone.
+
+## Resynchronisation des données de santé
+
+Si votre nombre de pas semble incorrect ou si des données semblent manquantes, vous pouvez resynchroniser depuis Apple Health :
+
+1. Ouvrez les **Réglages** dans Steps
+2. Faites défiler jusqu'à la section Support
+3. Appuyez sur **Resynchroniser les données Apple Health**
+
+Cela actualise toutes vos données d'activité depuis Apple Health.
+
+## Redémarrer l'intégration
+
+Pour reparcourir le flux de configuration :
+
+1. Ouvrez les **Réglages** dans Steps
+2. Appuyez sur **Redémarrer l'intégration**
+3. Confirmez lorsque vous y êtes invité
+
+Cela vous permet de reconfigurer votre objectif quotidien et vos autorisations.

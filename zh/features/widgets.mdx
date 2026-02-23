@@ -1,0 +1,68 @@
+---
+title: "小组件"
+description: "主屏幕、锁屏和 Live Activity 小组件，一目了然查看步数追踪"
+---
+
+Steps 提供多种小组件，让您无需打开应用即可查看步数、连续打卡和锻炼数据。
+
+## 小组件类型
+
+{/* TODO: Screenshot showing Home Screen widgets in action */}
+<Frame caption="主屏幕上的 Steps 小组件">
+  <img src="/images/screenshots/widgets-home-screen.jpg" alt="Home Screen widgets" />
+</Frame>
+
+| 小组件 | 尺寸 | 描述 |
+|--------|-------|-------------|
+| **今日步数** | 小号、锁屏（矩形、内联、圆形） | 当前步数和目标进度 |
+| **月度日历** | 中号 | 显示当月每日目标完成情况的日历网格 |
+| **年度日历** | 中号、大号 | 带目标完成热图的全年日历 |
+| **每小时图表** | 中号 | 今日按小时步数条形图 |
+| **每周图表** | 中号 | 过去 7 天步数条形图 |
+| **每月图表** | 中号 | 当月步数条形图 |
+| **连续打卡** | 小号、中号 | 当前连续打卡天数和每周目标进度 |
+| **锻炼亮点** | 小号 | 最近一次锻炼的统计数据 |
+
+## Live Activity
+
+进行中的锻炼期间，Live Activity 会出现在您的锁屏和 Dynamic Island 上（iOS 26+）。显示内容包括：
+
+- 锻炼类型图标
+- 已用时间
+- 覆盖距离
+- 消耗卡路里
+- 当前配速
+
+Dynamic Island 每 30 秒循环显示各项数据。
+
+## 添加小组件
+
+<Steps>
+  <Step title="长按主屏幕">
+    触摸并按住主屏幕上的空白区域，直到应用开始抖动。
+  </Step>
+  <Step title="点击 + 按钮">
+    点击左上角的 **+** 按钮打开小组件库。
+  </Step>
+  <Step title="搜索 Steps">
+    在搜索栏中输入"Steps"以查找所有可用小组件。
+  </Step>
+  <Step title="选择小组件">
+    选择您想要的小组件类型和尺寸，然后点击**添加小组件**。
+  </Step>
+</Steps>
+
+## 锁屏小组件
+
+{/* TODO: Screenshot of Lock Screen widgets (rectangular, inline, circular) */}
+<Frame caption="三种样式的 Steps 锁屏小组件">
+  <img src="/images/screenshots/widgets-lock-screen.jpg" alt="Lock Screen widgets" />
+</Frame>
+
+今日步数小组件也可用于锁屏，提供三种样式：
+
+- **矩形** - 显示步数和进度条
+- **内联** - 日期行中的紧凑步数显示
+- **圆形** - 圆形仪表中的步数
+
+<Tip>您的小组件会自动更新最新步数数据，并反映您选择的颜色主题。</Tip>

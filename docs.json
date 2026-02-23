@@ -17,58 +17,423 @@
   },
   "favicon": "/favicon.png",
   "navigation": {
-    "tabs": [
+    "languages": [
       {
-        "tab": "Documentation",
-        "groups": [
+        "language": "en",
+        "tabs": [
           {
-            "group": "Overview",
-            "pages": [
-              "index",
-              "features/getting-started",
-              "features/steps-pro"
+            "tab": "Documentation",
+            "groups": [
+              {
+                "group": "Overview",
+                "pages": [
+                  "index",
+                  "features/getting-started",
+                  "features/steps-pro"
+                ]
+              },
+              {
+                "group": "Core Features",
+                "pages": [
+                  "features/home-dashboard",
+                  "features/streaks",
+                  "features/workout-session",
+                  "features/activity-list",
+                  "features/activity-detail",
+                  "features/history",
+                  "features/insights-overview"
+                ]
+              },
+              {
+                "group": "Goals & Motivation",
+                "pages": [
+                  "features/daily-goal",
+                  "features/app-lock",
+                  "features/notifications"
+                ]
+              },
+              {
+                "group": "Customization",
+                "pages": [
+                  "features/color-themes",
+                  "features/app-icon-selector",
+                  "features/settings-overview"
+                ]
+              },
+              {
+                "group": "Platform Features",
+                "pages": [
+                  "features/widgets",
+                  "features/watch-app",
+                  "features/siri-shortcuts"
+                ]
+              },
+              {
+                "group": "Sharing & Data",
+                "pages": [
+                  "features/sharing"
+                ]
+              }
             ]
-          },
+          }
+        ]
+      },
+      {
+        "language": "zh",
+        "tabs": [
           {
-            "group": "Core Features",
-            "pages": [
-              "features/home-dashboard",
-              "features/streaks",
-              "features/workout-session",
-              "features/activity-list",
-              "features/activity-detail",
-              "features/history",
-              "features/insights-overview"
+            "tab": "文档",
+            "groups": [
+              {
+                "group": "概览",
+                "pages": [
+                  "zh/index",
+                  "zh/features/getting-started",
+                  "zh/features/steps-pro"
+                ]
+              },
+              {
+                "group": "核心功能",
+                "pages": [
+                  "zh/features/home-dashboard",
+                  "zh/features/streaks",
+                  "zh/features/workout-session",
+                  "zh/features/activity-list",
+                  "zh/features/activity-detail",
+                  "zh/features/history",
+                  "zh/features/insights-overview"
+                ]
+              },
+              {
+                "group": "目标与激励",
+                "pages": [
+                  "zh/features/daily-goal",
+                  "zh/features/app-lock",
+                  "zh/features/notifications"
+                ]
+              },
+              {
+                "group": "个性化",
+                "pages": [
+                  "zh/features/color-themes",
+                  "zh/features/app-icon-selector",
+                  "zh/features/settings-overview"
+                ]
+              },
+              {
+                "group": "平台功能",
+                "pages": [
+                  "zh/features/widgets",
+                  "zh/features/watch-app",
+                  "zh/features/siri-shortcuts"
+                ]
+              },
+              {
+                "group": "分享与数据",
+                "pages": [
+                  "zh/features/sharing"
+                ]
+              }
             ]
-          },
+          }
+        ]
+      },
+      {
+        "language": "fr",
+        "tabs": [
           {
-            "group": "Goals & Motivation",
-            "pages": [
-              "features/daily-goal",
-              "features/app-lock",
-              "features/notifications"
+            "tab": "Documentation",
+            "groups": [
+              {
+                "group": "Aperçu",
+                "pages": [
+                  "fr/index",
+                  "fr/features/getting-started",
+                  "fr/features/steps-pro"
+                ]
+              },
+              {
+                "group": "Fonctionnalités",
+                "pages": [
+                  "fr/features/home-dashboard",
+                  "fr/features/streaks",
+                  "fr/features/workout-session",
+                  "fr/features/activity-list",
+                  "fr/features/activity-detail",
+                  "fr/features/history",
+                  "fr/features/insights-overview"
+                ]
+              },
+              {
+                "group": "Objectifs",
+                "pages": [
+                  "fr/features/daily-goal",
+                  "fr/features/app-lock",
+                  "fr/features/notifications"
+                ]
+              },
+              {
+                "group": "Personnalisation",
+                "pages": [
+                  "fr/features/color-themes",
+                  "fr/features/app-icon-selector",
+                  "fr/features/settings-overview"
+                ]
+              },
+              {
+                "group": "Fonctionnalités Plateforme",
+                "pages": [
+                  "fr/features/widgets",
+                  "fr/features/watch-app",
+                  "fr/features/siri-shortcuts"
+                ]
+              },
+              {
+                "group": "Partage",
+                "pages": [
+                  "fr/features/sharing"
+                ]
+              }
             ]
-          },
+          }
+        ]
+      },
+      {
+        "language": "de",
+        "tabs": [
           {
-            "group": "Customization",
-            "pages": [
-              "features/color-themes",
-              "features/app-icon-selector",
-              "features/settings-overview"
+            "tab": "Dokumentation",
+            "groups": [
+              {
+                "group": "Übersicht",
+                "pages": [
+                  "de/index",
+                  "de/features/getting-started",
+                  "de/features/steps-pro"
+                ]
+              },
+              {
+                "group": "Kernfunktionen",
+                "pages": [
+                  "de/features/home-dashboard",
+                  "de/features/streaks",
+                  "de/features/workout-session",
+                  "de/features/activity-list",
+                  "de/features/activity-detail",
+                  "de/features/history",
+                  "de/features/insights-overview"
+                ]
+              },
+              {
+                "group": "Ziele & Motivation",
+                "pages": [
+                  "de/features/daily-goal",
+                  "de/features/app-lock",
+                  "de/features/notifications"
+                ]
+              },
+              {
+                "group": "Anpassung",
+                "pages": [
+                  "de/features/color-themes",
+                  "de/features/app-icon-selector",
+                  "de/features/settings-overview"
+                ]
+              },
+              {
+                "group": "Plattformfunktionen",
+                "pages": [
+                  "de/features/widgets",
+                  "de/features/watch-app",
+                  "de/features/siri-shortcuts"
+                ]
+              },
+              {
+                "group": "Teilen & Daten",
+                "pages": [
+                  "de/features/sharing"
+                ]
+              }
             ]
-          },
+          }
+        ]
+      },
+      {
+        "language": "it",
+        "tabs": [
           {
-            "group": "Platform Features",
-            "pages": [
-              "features/widgets",
-              "features/watch-app",
-              "features/siri-shortcuts"
+            "tab": "Documentazione",
+            "groups": [
+              {
+                "group": "Panoramica",
+                "pages": [
+                  "it/index",
+                  "it/features/getting-started",
+                  "it/features/steps-pro"
+                ]
+              },
+              {
+                "group": "Funzionalità",
+                "pages": [
+                  "it/features/home-dashboard",
+                  "it/features/streaks",
+                  "it/features/workout-session",
+                  "it/features/activity-list",
+                  "it/features/activity-detail",
+                  "it/features/history",
+                  "it/features/insights-overview"
+                ]
+              },
+              {
+                "group": "Obiettivi",
+                "pages": [
+                  "it/features/daily-goal",
+                  "it/features/app-lock",
+                  "it/features/notifications"
+                ]
+              },
+              {
+                "group": "Personalizzazione",
+                "pages": [
+                  "it/features/color-themes",
+                  "it/features/app-icon-selector",
+                  "it/features/settings-overview"
+                ]
+              },
+              {
+                "group": "Funzionalità Piattaforma",
+                "pages": [
+                  "it/features/widgets",
+                  "it/features/watch-app",
+                  "it/features/siri-shortcuts"
+                ]
+              },
+              {
+                "group": "Condivisione",
+                "pages": [
+                  "it/features/sharing"
+                ]
+              }
             ]
-          },
+          }
+        ]
+      },
+      {
+        "language": "pt-BR",
+        "tabs": [
           {
-            "group": "Sharing & Data",
-            "pages": [
-              "features/sharing"
+            "tab": "Documentação",
+            "groups": [
+              {
+                "group": "Visão Geral",
+                "pages": [
+                  "pt-BR/index",
+                  "pt-BR/features/getting-started",
+                  "pt-BR/features/steps-pro"
+                ]
+              },
+              {
+                "group": "Funcionalidades",
+                "pages": [
+                  "pt-BR/features/home-dashboard",
+                  "pt-BR/features/streaks",
+                  "pt-BR/features/workout-session",
+                  "pt-BR/features/activity-list",
+                  "pt-BR/features/activity-detail",
+                  "pt-BR/features/history",
+                  "pt-BR/features/insights-overview"
+                ]
+              },
+              {
+                "group": "Metas",
+                "pages": [
+                  "pt-BR/features/daily-goal",
+                  "pt-BR/features/app-lock",
+                  "pt-BR/features/notifications"
+                ]
+              },
+              {
+                "group": "Personalização",
+                "pages": [
+                  "pt-BR/features/color-themes",
+                  "pt-BR/features/app-icon-selector",
+                  "pt-BR/features/settings-overview"
+                ]
+              },
+              {
+                "group": "Recursos da Plataforma",
+                "pages": [
+                  "pt-BR/features/widgets",
+                  "pt-BR/features/watch-app",
+                  "pt-BR/features/siri-shortcuts"
+                ]
+              },
+              {
+                "group": "Compartilhamento",
+                "pages": [
+                  "pt-BR/features/sharing"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "language": "es",
+        "tabs": [
+          {
+            "tab": "Documentación",
+            "groups": [
+              {
+                "group": "Visión General",
+                "pages": [
+                  "es/index",
+                  "es/features/getting-started",
+                  "es/features/steps-pro"
+                ]
+              },
+              {
+                "group": "Funcionalidades",
+                "pages": [
+                  "es/features/home-dashboard",
+                  "es/features/streaks",
+                  "es/features/workout-session",
+                  "es/features/activity-list",
+                  "es/features/activity-detail",
+                  "es/features/history",
+                  "es/features/insights-overview"
+                ]
+              },
+              {
+                "group": "Objetivos",
+                "pages": [
+                  "es/features/daily-goal",
+                  "es/features/app-lock",
+                  "es/features/notifications"
+                ]
+              },
+              {
+                "group": "Personalización",
+                "pages": [
+                  "es/features/color-themes",
+                  "es/features/app-icon-selector",
+                  "es/features/settings-overview"
+                ]
+              },
+              {
+                "group": "Funciones de Plataforma",
+                "pages": [
+                  "es/features/widgets",
+                  "es/features/watch-app",
+                  "es/features/siri-shortcuts"
+                ]
+              },
+              {
+                "group": "Compartir",
+                "pages": [
+                  "es/features/sharing"
+                ]
+              }
             ]
           }
         ]

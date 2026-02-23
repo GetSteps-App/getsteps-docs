@@ -1,0 +1,65 @@
+---
+title: "Tableau de bord"
+description: "Votre centre de commande pour le suivi des pas quotidiens avec graphiques, progression et météo"
+---
+
+Le tableau de bord est votre vue principale dans Steps, affichant votre nombre de pas, vos métriques d'activité, votre progression vers votre objectif quotidien et vos graphiques de pas.
+
+{/* TODO: Screenshot of the Home Dashboard main view */}
+<Frame caption="Tableau de bord avec la carte du nombre de pas, l'anneau de progression et le graphique horaire">
+  <img src="/images/screenshots/home-dashboard-overview.jpg" alt="Home Dashboard overview" />
+</Frame>
+
+## Carte du nombre de pas
+
+La carte principale affiche votre activité actuelle :
+
+- **Nombre de pas** - Votre total de pas pour la période sélectionnée
+- **Distance** - Distance de marche et de course en km ou miles
+- **Calories** - Énergie active brûlée
+- **Étages montés** - Étages gravis (vue quotidienne uniquement)
+
+Un **anneau de progression** entoure la carte, se remplissant à mesure que vous approchez de votre objectif quotidien. La couleur de l'anneau change vers votre couleur de thème « complété » une fois que vous avez atteint votre objectif.
+
+## Badge de série
+
+Votre compteur de série actuel apparaît dans le coin supérieur gauche avec une icône de flamme. Appuyez dessus pour afficher tous les détails de votre série, la carte thermique et la progression des badges.
+
+## Messages de motivation
+
+Vous pouvez choisir ce qui apparaît sous votre nombre de pas dans **Réglages > Aperçu de l'accueil** :
+
+- **Message** - Une citation motivante ou un encouragement
+- **Moyenne** - Comment vos pas se comparent à votre moyenne quotidienne
+- **Désactivé** - N'affiche rien de supplémentaire
+
+## Graphiques
+
+{/* TODO: Screenshot of step charts (daily hourly bar chart) */}
+<Frame caption="Graphique horaire des pas sur le tableau de bord">
+  <img src="/images/screenshots/home-dashboard-chart.jpg" alt="Home Dashboard step chart" />
+</Frame>
+
+Les graphiques de pas apparaissent sous la carte principale en fonction du mode d'affichage sélectionné :
+
+| Vue | Graphique | Accès |
+|-----|-----------|-------|
+| **Quotidien** | Graphique à barres horaire des pas | Gratuit |
+| **Hebdomadaire** | Graphique à barres sur 7 jours | Pro |
+| **Mensuel** | Graphique à barres mensuel des pas | Pro |
+
+<Note>Les vues hebdomadaires et mensuelles sont des fonctionnalités Pro. Vous pouvez basculer entre les vues dans **Réglages > Afficher les pas par**.</Note>
+
+Dans les vues hebdomadaires et mensuelles, vous pouvez basculer entre les pas **Totaux** et **Moyens** à l'aide du bouton dans le coin supérieur droit.
+
+## Navigation par date
+
+Faites glisser vers la **gauche** ou la **droite** sur la carte des pas pour naviguer entre les jours, les semaines ou les mois. Une bande de calendrier défilable horizontalement en bas vous permet de sauter rapidement à n'importe quelle date.
+
+## Météo
+
+Lorsque cette option est activée dans les Réglages, la température et l'humidité actuelles s'affichent dans la barre d'outils supérieure. Activez ou désactivez cette option dans **Réglages > Afficher la météo**.
+
+## Actualisation
+
+Appuyez sur le bouton d'actualisation dans le coin supérieur droit pour synchroniser manuellement vos dernières données de pas depuis Apple Health.
