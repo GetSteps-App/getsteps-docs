@@ -437,6 +437,66 @@
             ]
           }
         ]
+      },
+      {
+        "language": "ko",
+        "tabs": [
+          {
+            "tab": "문서",
+            "groups": [
+              {
+                "group": "개요",
+                "pages": [
+                  "ko/index",
+                  "ko/features/getting-started",
+                  "ko/features/steps-pro"
+                ]
+              },
+              {
+                "group": "핵심 기능",
+                "pages": [
+                  "ko/features/home-dashboard",
+                  "ko/features/streaks",
+                  "ko/features/workout-session",
+                  "ko/features/activity-list",
+                  "ko/features/activity-detail",
+                  "ko/features/history",
+                  "ko/features/insights-overview"
+                ]
+              },
+              {
+                "group": "목표 및 동기 부여",
+                "pages": [
+                  "ko/features/daily-goal",
+                  "ko/features/app-lock",
+                  "ko/features/notifications"
+                ]
+              },
+              {
+                "group": "맞춤 설정",
+                "pages": [
+                  "ko/features/color-themes",
+                  "ko/features/app-icon-selector",
+                  "ko/features/settings-overview"
+                ]
+              },
+              {
+                "group": "플랫폼 기능",
+                "pages": [
+                  "ko/features/widgets",
+                  "ko/features/watch-app",
+                  "ko/features/siri-shortcuts"
+                ]
+              },
+              {
+                "group": "공유 및 데이터",
+                "pages": [
+                  "ko/features/sharing"
+                ]
+              }
+            ]
+          }
+        ]
       }
     ],
     "global": {
