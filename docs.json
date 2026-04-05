@@ -497,6 +497,66 @@
             ]
           }
         ]
+      },
+      {
+        "language": "ru",
+        "tabs": [
+          {
+            "tab": "Документация",
+            "groups": [
+              {
+                "group": "Обзор",
+                "pages": [
+                  "ru/index",
+                  "ru/features/getting-started",
+                  "ru/features/steps-pro"
+                ]
+              },
+              {
+                "group": "Основные функции",
+                "pages": [
+                  "ru/features/home-dashboard",
+                  "ru/features/streaks",
+                  "ru/features/workout-session",
+                  "ru/features/activity-list",
+                  "ru/features/activity-detail",
+                  "ru/features/history",
+                  "ru/features/insights-overview"
+                ]
+              },
+              {
+                "group": "Цели и мотивация",
+                "pages": [
+                  "ru/features/daily-goal",
+                  "ru/features/app-lock",
+                  "ru/features/notifications"
+                ]
+              },
+              {
+                "group": "Персонализация",
+                "pages": [
+                  "ru/features/color-themes",
+                  "ru/features/app-icon-selector",
+                  "ru/features/settings-overview"
+                ]
+              },
+              {
+                "group": "Функции платформы",
+                "pages": [
+                  "ru/features/widgets",
+                  "ru/features/watch-app",
+                  "ru/features/siri-shortcuts"
+                ]
+              },
+              {
+                "group": "Общий доступ и данные",
+                "pages": [
+                  "ru/features/sharing"
+                ]
+              }
+            ]
+          }
+        ]
       }
     ],
     "global": {
