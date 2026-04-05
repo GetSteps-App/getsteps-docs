@@ -557,6 +557,66 @@
             ]
           }
         ]
+      },
+      {
+        "language": "ja",
+        "tabs": [
+          {
+            "tab": "ドキュメント",
+            "groups": [
+              {
+                "group": "概要",
+                "pages": [
+                  "ja/index",
+                  "ja/features/getting-started",
+                  "ja/features/steps-pro"
+                ]
+              },
+              {
+                "group": "主要機能",
+                "pages": [
+                  "ja/features/home-dashboard",
+                  "ja/features/streaks",
+                  "ja/features/workout-session",
+                  "ja/features/activity-list",
+                  "ja/features/activity-detail",
+                  "ja/features/history",
+                  "ja/features/insights-overview"
+                ]
+              },
+              {
+                "group": "目標とモチベーション",
+                "pages": [
+                  "ja/features/daily-goal",
+                  "ja/features/app-lock",
+                  "ja/features/notifications"
+                ]
+              },
+              {
+                "group": "カスタマイズ",
+                "pages": [
+                  "ja/features/color-themes",
+                  "ja/features/app-icon-selector",
+                  "ja/features/settings-overview"
+                ]
+              },
+              {
+                "group": "プラットフォーム機能",
+                "pages": [
+                  "ja/features/widgets",
+                  "ja/features/watch-app",
+                  "ja/features/siri-shortcuts"
+                ]
+              },
+              {
+                "group": "共有とデータ",
+                "pages": [
+                  "ja/features/sharing"
+                ]
+              }
+            ]
+          }
+        ]
       }
     ],
     "global": {
