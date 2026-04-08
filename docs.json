@@ -37,6 +37,7 @@
                 "pages": [
                   "features/home-dashboard",
                   "features/streaks",
+                  "features/stepboard",
                   "features/workout-session",
                   "features/activity-list",
                   "features/activity-detail",
@@ -97,6 +98,7 @@
                 "pages": [
                   "zh/features/home-dashboard",
                   "zh/features/streaks",
+                  "zh/features/stepboard",
                   "zh/features/workout-session",
                   "zh/features/activity-list",
                   "zh/features/activity-detail",
@@ -157,6 +159,7 @@
                 "pages": [
                   "fr/features/home-dashboard",
                   "fr/features/streaks",
+                  "fr/features/stepboard",
                   "fr/features/workout-session",
                   "fr/features/activity-list",
                   "fr/features/activity-detail",
@@ -217,6 +220,7 @@
                 "pages": [
                   "de/features/home-dashboard",
                   "de/features/streaks",
+                  "de/features/stepboard",
                   "de/features/workout-session",
                   "de/features/activity-list",
                   "de/features/activity-detail",
@@ -277,6 +281,7 @@
                 "pages": [
                   "it/features/home-dashboard",
                   "it/features/streaks",
+                  "it/features/stepboard",
                   "it/features/workout-session",
                   "it/features/activity-list",
                   "it/features/activity-detail",
@@ -337,6 +342,7 @@
                 "pages": [
                   "pt-BR/features/home-dashboard",
                   "pt-BR/features/streaks",
+                  "pt-BR/features/stepboard",
                   "pt-BR/features/workout-session",
                   "pt-BR/features/activity-list",
                   "pt-BR/features/activity-detail",
@@ -397,6 +403,7 @@
                 "pages": [
                   "es/features/home-dashboard",
                   "es/features/streaks",
+                  "es/features/stepboard",
                   "es/features/workout-session",
                   "es/features/activity-list",
                   "es/features/activity-detail",
@@ -457,6 +464,7 @@
                 "pages": [
                   "ko/features/home-dashboard",
                   "ko/features/streaks",
+                  "ko/features/stepboard",
                   "ko/features/workout-session",
                   "ko/features/activity-list",
                   "ko/features/activity-detail",
@@ -517,6 +525,7 @@
                 "pages": [
                   "ru/features/home-dashboard",
                   "ru/features/streaks",
+                  "ru/features/stepboard",
                   "ru/features/workout-session",
                   "ru/features/activity-list",
                   "ru/features/activity-detail",
@@ -577,6 +586,7 @@
                 "pages": [
                   "ja/features/home-dashboard",
                   "ja/features/streaks",
+                  "ja/features/stepboard",
                   "ja/features/workout-session",
                   "ja/features/activity-list",
                   "ja/features/activity-detail",
