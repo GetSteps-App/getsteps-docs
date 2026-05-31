@@ -29,6 +29,42 @@ Jede Workout-Detailansicht zeigt:
 - **Kalorien** - Aktiv verbrannte Energie
 - **Wetter** - Temperatur und Luftfeuchtigkeit während des Workouts
 
+## Herzfrequenz & Zonen
+
+{/* TODO: Screenshot of heart rate chart and Time in Zones breakdown */}
+<Frame caption="Herzfrequenz-Diagramm mit der Aufschlüsselung „Zeit in Zonen“">
+  <img src="/images/screenshots/activity-detail-heart-rate-zones.jpg" alt="Heart rate chart and zones" />
+</Frame>
+
+Wenn ein Workout Herzfrequenzdaten enthält, zeigt der Bereich **Herzfrequenz** deinen Durchschnitts- und Maximalwert zusammen mit einem Diagramm deiner Herzfrequenz über die Sitzung hinweg.
+
+Unter dem Diagramm zeigt die Aufschlüsselung **Zeit in Zonen**, wie lange du dich in jeder der fünf Herzfrequenzzonen aufgehalten hast, von leichter Anstrengung bis zur maximalen Anstrengung:
+
+| Zone | Anstrengung |
+|------|-------------|
+| **Zone 1** | Sehr leicht |
+| **Zone 2** | Leicht |
+| **Zone 3** | Moderat |
+| **Zone 4** | Hart |
+| **Zone 5** | Maximal |
+
+Jede Zone zeigt die darin verbrachte Zeit und ihren Herzfrequenzbereich in bpm.
+
+## Splits
+
+{/* TODO: Screenshot of the splits table */}
+<Frame caption="Aufschlüsselung pro Split mit Tempo, Zeit und durchschnittlicher Herzfrequenz">
+  <img src="/images/screenshots/activity-detail-splits.jpg" alt="Workout splits table" />
+</Frame>
+
+Für distanzbasierte Workouts schlüsselt die **Splits**-Tabelle dein Workout nach Distanz auf — eine Zeile pro Kilometer oder Meile, je nach deiner Einheiteneinstellung. Jeder Split zeigt:
+
+- **Tempo** (oder **Geschwindigkeit** beim Radfahren)
+- **Zeit** — Kumulierte verstrichene Zeit am Ende des Splits
+- **HF** — Durchschnittliche Herzfrequenz für den Split, sofern verfügbar
+
+Ein Balken neben jedem Split macht es leicht, deine schnellsten und langsamsten Segmente auf einen Blick zu vergleichen.
+
 ## Routen-Wiedergabe
 
 <Note>Routen-Wiedergabe ist eine Pro-Funktion.</Note>
@@ -81,3 +117,9 @@ Weitere Informationen findest du unter [Teilen](/features/sharing).
 <Note>GPX-Export ist eine Pro-Funktion.</Note>
 
 Exportiere deine Workout-Route als `.gpx`-Datei zur Verwendung in anderen Fitness-Apps oder Kartierungstools. Tippe auf die Teilen-Schaltfläche und wähle GPX-Export, um die Datei zu speichern oder zu senden.
+
+## Ein Workout löschen
+
+Um ein Workout zu entfernen, tippe auf die Menü-Taste (⋯) in der oberen rechten Ecke und wähle **Löschen**. Du wirst zur Bestätigung aufgefordert, da dies das Workout sowohl aus Steps als auch aus Apple Health entfernt.
+
+<Warning>Das Löschen eines Workouts entfernt es auch aus Apple Health und kann nicht rückgängig gemacht werden.</Warning>

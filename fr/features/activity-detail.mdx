@@ -29,6 +29,42 @@ Chaque vue détaillée d'entraînement affiche :
 - **Calories** - Énergie active brûlée
 - **Météo** - Température et humidité pendant l'entraînement
 
+## Fréquence cardiaque et zones
+
+{/* TODO: Screenshot of heart rate chart and Time in Zones breakdown */}
+<Frame caption="Graphique de fréquence cardiaque avec la répartition du temps dans les zones">
+  <img src="/images/screenshots/activity-detail-heart-rate-zones.jpg" alt="Heart rate chart and zones" />
+</Frame>
+
+Lorsqu'un entraînement comporte des données de fréquence cardiaque, la section **Fréquence cardiaque** affiche votre moyenne et votre maximum, ainsi qu'un graphique de votre fréquence cardiaque tout au long de la séance.
+
+Sous le graphique, la répartition **Temps dans les zones** indique combien de temps vous avez passé dans chacune des cinq zones de fréquence cardiaque, de l'effort facile à l'effort maximal :
+
+| Zone | Effort |
+|------|--------|
+| **Zone 1** | Très léger |
+| **Zone 2** | Léger |
+| **Zone 3** | Modéré |
+| **Zone 4** | Intense |
+| **Zone 5** | Maximal |
+
+Chaque zone affiche le temps qui y a été passé et sa plage de fréquence cardiaque en bpm.
+
+## Fractionnés
+
+{/* TODO: Screenshot of the splits table */}
+<Frame caption="Répartition par fractionné avec l'allure, le temps et la fréquence cardiaque moyenne">
+  <img src="/images/screenshots/activity-detail-splits.jpg" alt="Workout splits table" />
+</Frame>
+
+Pour les entraînements basés sur la distance, le tableau **Fractionnés** décompose votre entraînement par distance — une ligne par kilomètre ou mile, selon votre réglage d'unité. Chaque fractionné affiche :
+
+- **Allure** (ou **Vitesse** pour le cyclisme)
+- **Temps** — Temps écoulé cumulé à la fin du fractionné
+- **FC** — Fréquence cardiaque moyenne du fractionné, lorsqu'elle est disponible
+
+Une barre à côté de chaque fractionné permet de comparer facilement vos segments les plus rapides et les plus lents d'un coup d'œil.
+
 ## Lecture de l'itinéraire
 
 <Note>La lecture de l'itinéraire est une fonctionnalité Pro.</Note>
@@ -81,3 +117,9 @@ Voir [Partage](/features/sharing) pour tous les détails.
 <Note>L'export GPX est une fonctionnalité Pro.</Note>
 
 Exportez votre itinéraire d'entraînement en tant que fichier `.gpx` pour l'utiliser dans d'autres applications de fitness ou outils de cartographie. Appuyez sur le bouton de partage et sélectionnez l'export GPX pour enregistrer ou envoyer le fichier.
+
+## Supprimer un entraînement
+
+Pour supprimer un entraînement, appuyez sur le bouton de menu (⋯) dans le coin supérieur droit et choisissez **Supprimer**. Une confirmation vous sera demandée, car cela supprime l'entraînement à la fois de Steps et d'Apple Santé.
+
+<Warning>Supprimer un entraînement le supprime également d'Apple Santé, et cela ne peut pas être annulé.</Warning>

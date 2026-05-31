@@ -29,6 +29,42 @@ Every workout detail view shows:
 - **Calories** - Active energy burned
 - **Weather** - Temperature and humidity during the workout
 
+## Heart Rate & Zones
+
+{/* TODO: Screenshot of heart rate chart and Time in Zones breakdown */}
+<Frame caption="Heart rate chart with the Time in Zones breakdown">
+  <img src="/images/screenshots/activity-detail-heart-rate-zones.jpg" alt="Heart rate chart and zones" />
+</Frame>
+
+When a workout has heart rate data, the **Heart Rate** section shows your average and max along with a chart of your heart rate over the session.
+
+Below the chart, the **Time in Zones** breakdown shows how long you spent in each of five heart rate zones, from easy effort to maximum effort:
+
+| Zone | Effort |
+|------|--------|
+| **Zone 1** | Very light |
+| **Zone 2** | Light |
+| **Zone 3** | Moderate |
+| **Zone 4** | Hard |
+| **Zone 5** | Maximum |
+
+Each zone shows the time spent in it and its heart rate range in bpm.
+
+## Splits
+
+{/* TODO: Screenshot of the splits table */}
+<Frame caption="Per-split breakdown with pace, time, and average heart rate">
+  <img src="/images/screenshots/activity-detail-splits.jpg" alt="Workout splits table" />
+</Frame>
+
+For distance-based workouts, the **Splits** table breaks your workout down by distance — one row per kilometer or mile, depending on your unit setting. Each split shows:
+
+- **Pace** (or **Speed** for cycling)
+- **Time** — Cumulative elapsed time at the end of the split
+- **HR** — Average heart rate for the split, when available
+
+A bar next to each split makes it easy to compare your fastest and slowest segments at a glance.
+
 ## Route Playback
 
 <Note>Route playback is a Pro feature.</Note>
@@ -81,3 +117,9 @@ See [Sharing](/features/sharing) for full details.
 <Note>GPX export is a Pro feature.</Note>
 
 Export your workout route as a `.gpx` file to use in other fitness apps or mapping tools. Tap the share button and select GPX export to save or send the file.
+
+## Deleting a Workout
+
+To remove a workout, tap the menu button (⋯) in the top-right corner and choose **Delete**. You'll be asked to confirm, since this removes the workout from both Steps and Apple Health.
+
+<Warning>Deleting a workout removes it from Apple Health as well, and it can't be undone.</Warning>

@@ -29,6 +29,42 @@ Toda visualização detalhada de treino mostra:
 - **Calorias** - Energia ativa gasta
 - **Clima** - Temperatura e umidade durante o treino
 
+## Frequência Cardíaca e Zonas
+
+{/* TODO: Screenshot of heart rate chart and Time in Zones breakdown */}
+<Frame caption="Gráfico de frequência cardíaca com o detalhamento de Tempo nas Zonas">
+  <img src="/images/screenshots/activity-detail-heart-rate-zones.jpg" alt="Heart rate chart and zones" />
+</Frame>
+
+Quando um treino tem dados de frequência cardíaca, a seção **Frequência Cardíaca** mostra sua média e máxima junto com um gráfico da sua frequência cardíaca ao longo da sessão.
+
+Abaixo do gráfico, o detalhamento de **Tempo nas Zonas** mostra quanto tempo você passou em cada uma das cinco zonas de frequência cardíaca, do esforço leve ao esforço máximo:
+
+| Zona | Esforço |
+|------|---------|
+| **Zona 1** | Muito leve |
+| **Zona 2** | Leve |
+| **Zona 3** | Moderado |
+| **Zona 4** | Intenso |
+| **Zona 5** | Máximo |
+
+Cada zona mostra o tempo passado nela e sua faixa de frequência cardíaca em bpm.
+
+## Parciais
+
+{/* TODO: Screenshot of the splits table */}
+<Frame caption="Detalhamento por parcial com ritmo, tempo e frequência cardíaca média">
+  <img src="/images/screenshots/activity-detail-splits.jpg" alt="Workout splits table" />
+</Frame>
+
+Para treinos baseados em distância, a tabela de **Parciais** divide seu treino por distância — uma linha por quilômetro ou milha, dependendo da sua unidade configurada. Cada parcial mostra:
+
+- **Ritmo** (ou **Velocidade** para ciclismo)
+- **Tempo** — Tempo decorrido acumulado ao final da parcial
+- **FC** — Frequência cardíaca média da parcial, quando disponível
+
+Uma barra ao lado de cada parcial facilita comparar rapidamente seus segmentos mais rápidos e mais lentos.
+
 ## Reprodução de Rota
 
 <Note>A reprodução de rota é um recurso Pro.</Note>
@@ -81,3 +117,9 @@ Consulte [Compartilhamento](/features/sharing) para detalhes completos.
 <Note>A exportação GPX é um recurso Pro.</Note>
 
 Exporte sua rota de treino como um arquivo `.gpx` para usar em outros aplicativos de fitness ou ferramentas de mapeamento. Toque no botão de compartilhamento e selecione a exportação GPX para salvar ou enviar o arquivo.
+
+## Excluindo um Treino
+
+Para remover um treino, toque no botão de menu (⋯) no canto superior direito e escolha **Excluir**. Será solicitada uma confirmação, pois isso remove o treino tanto do Steps quanto do Apple Health.
+
+<Warning>Excluir um treino também o remove do Apple Health, e isso não pode ser desfeito.</Warning>

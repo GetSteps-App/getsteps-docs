@@ -29,6 +29,42 @@ description: "查看锻炼统计数据、路线地图、回放模式，以及分
 - **卡路里** - 主动消耗的能量
 - **天气** - 锻炼期间的温度和湿度
 
+## 心率与区间
+
+{/* TODO: Screenshot of heart rate chart and Time in Zones breakdown */}
+<Frame caption="心率图表及区间用时分析">
+  <img src="/images/screenshots/activity-detail-heart-rate-zones.jpg" alt="Heart rate chart and zones" />
+</Frame>
+
+当锻炼包含心率数据时，**心率**部分会显示您的平均和最高心率，以及整个锻炼期间的心率图表。
+
+图表下方的**区间用时**分析显示您在五个心率区间中各停留了多长时间，从轻松强度到最大强度：
+
+| 区间 | 强度 |
+|------|--------|
+| **区间 1** | 极轻松 |
+| **区间 2** | 轻松 |
+| **区间 3** | 中等 |
+| **区间 4** | 高强度 |
+| **区间 5** | 最大 |
+
+每个区间都会显示在其中停留的时间及其以 bpm 为单位的心率范围。
+
+## 分段
+
+{/* TODO: Screenshot of the splits table */}
+<Frame caption="按分段细分，包含配速、时间和平均心率">
+  <img src="/images/screenshots/activity-detail-splits.jpg" alt="Workout splits table" />
+</Frame>
+
+对于基于距离的锻炼，**分段**表会按距离细分您的锻炼——每公里或每英里一行，取决于您的单位设置。每个分段显示：
+
+- **配速**（骑行时为**速度**）
+- **时间** — 该分段结束时的累计已用时间
+- **心率** — 该分段的平均心率（如有）
+
+每个分段旁的条形图让您可以一目了然地比较最快和最慢的路段。
+
 ## 路线回放
 
 <Note>路线回放是 Pro 功能。</Note>
@@ -81,3 +117,9 @@ description: "查看锻炼统计数据、路线地图、回放模式，以及分
 <Note>GPX 导出是 Pro 功能。</Note>
 
 将锻炼路线导出为 `.gpx` 文件，以便在其他健身应用或地图工具中使用。点击分享按钮并选择 GPX 导出以保存或发送文件。
+
+## 删除锻炼
+
+要移除一次锻炼，点击右上角的菜单按钮（⋯）并选择**删除**。系统会要求您确认，因为这会将锻炼从 Steps 和 Apple Health 中同时移除。
+
+<Warning>删除锻炼也会将其从 Apple Health 中移除，且无法撤销。</Warning>

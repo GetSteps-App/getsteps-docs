@@ -29,6 +29,42 @@ Cada vista de detalle de entrenamiento muestra:
 - **Calorías** - Energía activa quemada
 - **Clima** - Temperatura y humedad durante el entrenamiento
 
+## Frecuencia cardíaca y zonas
+
+{/* TODO: Screenshot of heart rate chart and Time in Zones breakdown */}
+<Frame caption="Gráfico de frecuencia cardíaca con el desglose de Tiempo en zonas">
+  <img src="/images/screenshots/activity-detail-heart-rate-zones.jpg" alt="Heart rate chart and zones" />
+</Frame>
+
+Cuando un entrenamiento tiene datos de frecuencia cardíaca, la sección **Frecuencia cardíaca** muestra tu promedio y máxima junto con un gráfico de tu frecuencia cardíaca durante la sesión.
+
+Debajo del gráfico, el desglose de **Tiempo en zonas** muestra cuánto tiempo pasaste en cada una de las cinco zonas de frecuencia cardíaca, desde un esfuerzo suave hasta un esfuerzo máximo:
+
+| Zona | Esfuerzo |
+|------|----------|
+| **Zona 1** | Muy ligero |
+| **Zona 2** | Ligero |
+| **Zona 3** | Moderado |
+| **Zona 4** | Intenso |
+| **Zona 5** | Máximo |
+
+Cada zona muestra el tiempo que pasaste en ella y su rango de frecuencia cardíaca en ppm.
+
+## Parciales
+
+{/* TODO: Screenshot of the splits table */}
+<Frame caption="Desglose por parcial con ritmo, tiempo y frecuencia cardíaca promedio">
+  <img src="/images/screenshots/activity-detail-splits.jpg" alt="Workout splits table" />
+</Frame>
+
+Para los entrenamientos basados en distancia, la tabla de **Parciales** desglosa tu entrenamiento por distancia: una fila por kilómetro o milla, según tu configuración de unidades. Cada parcial muestra:
+
+- **Ritmo** (o **Velocidad** para el ciclismo)
+- **Tiempo** — Tiempo transcurrido acumulado al final del parcial
+- **FC** — Frecuencia cardíaca promedio del parcial, cuando está disponible
+
+Una barra junto a cada parcial facilita comparar de un vistazo tus segmentos más rápidos y más lentos.
+
 ## Reproducción de ruta
 
 <Note>La reproducción de ruta es una función Pro.</Note>
@@ -81,3 +117,9 @@ Consulta [Compartir](/features/sharing) para más detalles.
 <Note>La exportación GPX es una función Pro.</Note>
 
 Exporta tu ruta de entrenamiento como archivo `.gpx` para usarlo en otras apps de actividad física o herramientas de mapeo. Toca el botón de compartir y selecciona exportar GPX para guardar o enviar el archivo.
+
+## Eliminar un entrenamiento
+
+Para quitar un entrenamiento, toca el botón de menú (⋯) en la esquina superior derecha y elige **Eliminar**. Se te pedirá confirmación, ya que esto quita el entrenamiento tanto de Steps como de Apple Health.
+
+<Warning>Eliminar un entrenamiento también lo quita de Apple Health, y no se puede deshacer.</Warning>

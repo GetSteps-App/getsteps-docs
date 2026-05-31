@@ -38,9 +38,12 @@
                   "features/home-dashboard",
                   "features/streaks",
                   "features/stepboard",
+                  "features/world-stats",
                   "features/workout-session",
                   "features/activity-list",
                   "features/activity-detail",
+                  "features/ai-coach",
+                  "features/workout-chat",
                   "features/history",
                   "features/insights-overview"
                 ]
@@ -99,9 +102,12 @@
                   "zh/features/home-dashboard",
                   "zh/features/streaks",
                   "zh/features/stepboard",
+                  "zh/features/world-stats",
                   "zh/features/workout-session",
                   "zh/features/activity-list",
                   "zh/features/activity-detail",
+                  "zh/features/ai-coach",
+                  "zh/features/workout-chat",
                   "zh/features/history",
                   "zh/features/insights-overview"
                 ]
@@ -160,9 +166,12 @@
                   "fr/features/home-dashboard",
                   "fr/features/streaks",
                   "fr/features/stepboard",
+                  "fr/features/world-stats",
                   "fr/features/workout-session",
                   "fr/features/activity-list",
                   "fr/features/activity-detail",
+                  "fr/features/ai-coach",
+                  "fr/features/workout-chat",
                   "fr/features/history",
                   "fr/features/insights-overview"
                 ]
@@ -221,9 +230,12 @@
                   "de/features/home-dashboard",
                   "de/features/streaks",
                   "de/features/stepboard",
+                  "de/features/world-stats",
                   "de/features/workout-session",
                   "de/features/activity-list",
                   "de/features/activity-detail",
+                  "de/features/ai-coach",
+                  "de/features/workout-chat",
                   "de/features/history",
                   "de/features/insights-overview"
                 ]
@@ -282,9 +294,12 @@
                   "it/features/home-dashboard",
                   "it/features/streaks",
                   "it/features/stepboard",
+                  "it/features/world-stats",
                   "it/features/workout-session",
                   "it/features/activity-list",
                   "it/features/activity-detail",
+                  "it/features/ai-coach",
+                  "it/features/workout-chat",
                   "it/features/history",
                   "it/features/insights-overview"
                 ]
@@ -343,9 +358,12 @@
                   "pt-BR/features/home-dashboard",
                   "pt-BR/features/streaks",
                   "pt-BR/features/stepboard",
+                  "pt-BR/features/world-stats",
                   "pt-BR/features/workout-session",
                   "pt-BR/features/activity-list",
                   "pt-BR/features/activity-detail",
+                  "pt-BR/features/ai-coach",
+                  "pt-BR/features/workout-chat",
                   "pt-BR/features/history",
                   "pt-BR/features/insights-overview"
                 ]
@@ -404,9 +422,12 @@
                   "es/features/home-dashboard",
                   "es/features/streaks",
                   "es/features/stepboard",
+                  "es/features/world-stats",
                   "es/features/workout-session",
                   "es/features/activity-list",
                   "es/features/activity-detail",
+                  "es/features/ai-coach",
+                  "es/features/workout-chat",
                   "es/features/history",
                   "es/features/insights-overview"
                 ]
@@ -465,9 +486,12 @@
                   "ko/features/home-dashboard",
                   "ko/features/streaks",
                   "ko/features/stepboard",
+                  "ko/features/world-stats",
                   "ko/features/workout-session",
                   "ko/features/activity-list",
                   "ko/features/activity-detail",
+                  "ko/features/ai-coach",
+                  "ko/features/workout-chat",
                   "ko/features/history",
                   "ko/features/insights-overview"
                 ]
@@ -526,9 +550,12 @@
                   "ru/features/home-dashboard",
                   "ru/features/streaks",
                   "ru/features/stepboard",
+                  "ru/features/world-stats",
                   "ru/features/workout-session",
                   "ru/features/activity-list",
                   "ru/features/activity-detail",
+                  "ru/features/ai-coach",
+                  "ru/features/workout-chat",
                   "ru/features/history",
                   "ru/features/insights-overview"
                 ]
@@ -587,9 +614,12 @@
                   "ja/features/home-dashboard",
                   "ja/features/streaks",
                   "ja/features/stepboard",
+                  "ja/features/world-stats",
                   "ja/features/workout-session",
                   "ja/features/activity-list",
                   "ja/features/activity-detail",
+                  "ja/features/ai-coach",
+                  "ja/features/workout-chat",
                   "ja/features/history",
                   "ja/features/insights-overview"
                 ]

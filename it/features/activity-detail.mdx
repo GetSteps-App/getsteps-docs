@@ -29,6 +29,42 @@ Ogni vista dettaglio allenamento mostra:
 - **Calorie** - Energia attiva bruciata
 - **Meteo** - Temperatura e umidità durante l'allenamento
 
+## Frequenza cardiaca e zone
+
+{/* TODO: Screenshot of heart rate chart and Time in Zones breakdown */}
+<Frame caption="Grafico della frequenza cardiaca con il dettaglio Tempo nelle zone">
+  <img src="/images/screenshots/activity-detail-heart-rate-zones.jpg" alt="Heart rate chart and zones" />
+</Frame>
+
+Quando un allenamento contiene dati sulla frequenza cardiaca, la sezione **Frequenza cardiaca** mostra la tua media e il massimo insieme a un grafico della tua frequenza cardiaca durante la sessione.
+
+Sotto il grafico, il dettaglio **Tempo nelle zone** mostra quanto tempo hai trascorso in ciascuna delle cinque zone di frequenza cardiaca, dallo sforzo leggero allo sforzo massimo:
+
+| Zona | Sforzo |
+|------|--------|
+| **Zona 1** | Molto leggero |
+| **Zona 2** | Leggero |
+| **Zona 3** | Moderato |
+| **Zona 4** | Intenso |
+| **Zona 5** | Massimo |
+
+Ogni zona mostra il tempo trascorso al suo interno e il relativo intervallo di frequenza cardiaca in bpm.
+
+## Frazioni
+
+{/* TODO: Screenshot of the splits table */}
+<Frame caption="Dettaglio per frazione con ritmo, tempo e frequenza cardiaca media">
+  <img src="/images/screenshots/activity-detail-splits.jpg" alt="Workout splits table" />
+</Frame>
+
+Per gli allenamenti basati sulla distanza, la tabella **Frazioni** suddivide il tuo allenamento per distanza — una riga per chilometro o miglio, a seconda dell'impostazione dell'unità. Ogni frazione mostra:
+
+- **Ritmo** (o **Velocità** per il ciclismo)
+- **Tempo** — Tempo cumulativo trascorso alla fine della frazione
+- **FC** — Frequenza cardiaca media per la frazione, quando disponibile
+
+Una barra accanto a ogni frazione facilita il confronto a colpo d'occhio tra i segmenti più veloci e più lenti.
+
 ## Riproduzione del percorso
 
 <Note>La riproduzione del percorso è una funzionalità Pro.</Note>
@@ -81,3 +117,9 @@ Vedi [Condivisione](/features/sharing) per tutti i dettagli.
 <Note>L'esportazione GPX è una funzionalità Pro.</Note>
 
 Esporta il percorso del tuo allenamento come file `.gpx` da usare in altre app di fitness o strumenti di mappatura. Tocca il pulsante di condivisione e seleziona l'esportazione GPX per salvare o inviare il file.
+
+## Eliminare un allenamento
+
+Per rimuovere un allenamento, tocca il pulsante del menu (⋯) nell'angolo in alto a destra e scegli **Elimina**. Ti verrà chiesto di confermare, poiché questa azione rimuove l'allenamento sia da Steps che da Apple Health.
+
+<Warning>Eliminare un allenamento lo rimuove anche da Apple Health e non può essere annullato.</Warning>
