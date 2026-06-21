@@ -52,6 +52,7 @@
                 "group": "Goals & Motivation",
                 "pages": [
                   "features/daily-goal",
+                  "features/yearly-goal",
                   "features/app-lock",
                   "features/notifications"
                 ]
@@ -116,6 +117,7 @@
                 "group": "目标与激励",
                 "pages": [
                   "zh/features/daily-goal",
+                  "zh/features/yearly-goal",
                   "zh/features/app-lock",
                   "zh/features/notifications"
                 ]
@@ -180,6 +182,7 @@
                 "group": "Objectifs",
                 "pages": [
                   "fr/features/daily-goal",
+                  "fr/features/yearly-goal",
                   "fr/features/app-lock",
                   "fr/features/notifications"
                 ]
@@ -244,6 +247,7 @@
                 "group": "Ziele & Motivation",
                 "pages": [
                   "de/features/daily-goal",
+                  "de/features/yearly-goal",
                   "de/features/app-lock",
                   "de/features/notifications"
                 ]
@@ -308,6 +312,7 @@
                 "group": "Obiettivi",
                 "pages": [
                   "it/features/daily-goal",
+                  "it/features/yearly-goal",
                   "it/features/app-lock",
                   "it/features/notifications"
                 ]
@@ -372,6 +377,7 @@
                 "group": "Metas",
                 "pages": [
                   "pt-BR/features/daily-goal",
+                  "pt-BR/features/yearly-goal",
                   "pt-BR/features/app-lock",
                   "pt-BR/features/notifications"
                 ]
@@ -436,6 +442,7 @@
                 "group": "Objetivos",
                 "pages": [
                   "es/features/daily-goal",
+                  "es/features/yearly-goal",
                   "es/features/app-lock",
                   "es/features/notifications"
                 ]
@@ -500,6 +507,7 @@
                 "group": "목표 및 동기 부여",
                 "pages": [
                   "ko/features/daily-goal",
+                  "ko/features/yearly-goal",
                   "ko/features/app-lock",
                   "ko/features/notifications"
                 ]
@@ -564,6 +572,7 @@
                 "group": "Цели и мотивация",
                 "pages": [
                   "ru/features/daily-goal",
+                  "ru/features/yearly-goal",
                   "ru/features/app-lock",
                   "ru/features/notifications"
                 ]
@@ -628,6 +637,7 @@
                 "group": "目標とモチベーション",
                 "pages": [
                   "ja/features/daily-goal",
+                  "ja/features/yearly-goal",
                   "ja/features/app-lock",
                   "ja/features/notifications"
                 ]
