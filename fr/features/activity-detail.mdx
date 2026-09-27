@@ -29,6 +29,27 @@ Chaque vue détaillée d'entraînement affiche :
 - **Calories** - Énergie active brûlée
 - **Météo** - Température et humidité pendant l'entraînement
 
+Le pied de page de la feuille de statistiques indique l'appareil qui a enregistré l'entraînement, comme votre iPhone ou Apple Watch. Les entraînements qui ont un lieu mais pas d'itinéraire tracé affichent tout de même une épingle sur la carte.
+
+## Comparaison
+
+Lorsque vous avez au moins deux entraînements antérieurs du même type, la section **Comparaison** montre comment celui-ci se situe par rapport à la moyenne de vos derniers. Les séances intérieures et extérieures sont comparées séparément. Chaque ligne affiche la moyenne récente, la différence pour cet entraînement, et une petite tendance où la dernière barre est cette séance.
+
+Les métriques comparées peuvent inclure la durée, la distance, l'énergie active, l'allure, la fréquence cardiaque moyenne et l'[effort](#effort). La section se masque lorsqu'il n'y a pas assez d'historique pour calculer une moyenne.
+
+## Effort
+
+Notez à quel point l'entraînement vous a semblé difficile sur une échelle de **1 à 10**. Le score est enregistré dans Apple Health, afin de rester synchronisé avec l'app Fitness. Les bandes correspondent aux noms d'Apple :
+
+| Score | Bande |
+|-------|-------|
+| **1–3** | Easy |
+| **4–6** | Moderate |
+| **7–8** | Hard |
+| **9–10** | All Out |
+
+<Note>Les notes d'effort nécessitent iOS 18 ou une version ultérieure, et Steps a besoin de l'autorisation de mettre à jour Effort dans l'app Santé. Si une autre app détient déjà la note, modifiez-la là ou dans Santé.</Note>
+
 ## Fréquence cardiaque et zones
 
 {/* TODO: Screenshot of heart rate chart and Time in Zones breakdown */}
@@ -36,7 +57,7 @@ Chaque vue détaillée d'entraînement affiche :
   <img src="/images/screenshots/activity-detail-heart-rate-zones.jpg" alt="Heart rate chart and zones" />
 </Frame>
 
-Lorsqu'un entraînement comporte des données de fréquence cardiaque, la section **Fréquence cardiaque** affiche votre moyenne et votre maximum, ainsi qu'un graphique de votre fréquence cardiaque tout au long de la séance.
+Lorsqu'un entraînement comporte des données de fréquence cardiaque, la section **Fréquence cardiaque** affiche votre moyenne et votre maximum, ainsi qu'un graphique de votre fréquence cardiaque tout au long de la séance. La courbe est colorée selon vos zones de fréquence cardiaque d'Apple Health. Pendant un entraînement sur Apple Watch, ces zones se mettent à jour en direct.
 
 Sous le graphique, la répartition **Temps dans les zones** indique combien de temps vous avez passé dans chacune des cinq zones de fréquence cardiaque, de l'effort facile à l'effort maximal :
 
@@ -76,10 +97,12 @@ Une barre à côté de chaque fractionné permet de comparer facilement vos segm
 
 Rejouez votre itinéraire d'entraînement en 3D pour revivre la façon dont vous vous êtes déplacé pendant votre session. Une caméra de suivi cinématique plonge sur la scène puis glisse le long de votre trajet, lissant chaque virage tout en suivant votre position.
 
-Vous pouvez personnaliser la lecture :
+Ouvrez **Réglages de la carte** pour personnaliser la lecture :
 
 - **Style de carte** — basculez entre **Standard** et **Satellite**. Les deux affichent un relief réaliste pendant la lecture pour une véritable vue 3D.
-- **Vitesse** — ajustez la durée de la lecture de **15 à 180 secondes**. Steps choisit une valeur par défaut adaptée à la distance de votre entraînement, et vous pouvez l'accélérer ou la ralentir à votre convenance.
+- **Couleur de l'itinéraire** — choisissez la couleur du trajet.
+- **Durée de lecture** — de **15 à 180 secondes**. Steps choisit une valeur par défaut adaptée à la distance de votre entraînement.
+- **Nord en haut** — laissez la carte orientée au nord pendant toute la lecture, ou laissez la caméra suivre la direction dans laquelle vous avanciez.
 
 ## Partager votre entraînement
 
@@ -115,6 +138,8 @@ Partagez votre entraînement sous forme d'image stylisée. Steps propose quatre 
 | **Superposition** | Statistiques superposées sur votre carte d'itinéraire |
 | **Cadre** | Carte de l'itinéraire avec un cadre de statistiques bordé |
 | **Photo** | Statistiques superposées sur une photo de votre bibliothèque |
+
+**Superposition** et **Cadre** fonctionnent pour un itinéraire GPS tracé, et aussi pour un entraînement qui n'a qu'un lieu enregistré. L'aperçu transparent affiche un damier pour que vous puissiez voir ce qui restera transparent.
 
 Vous pouvez également choisir parmi cinq formats d'image : 16:9, 4:3, 1:1, 3:4 et 9:16.
 

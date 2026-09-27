@@ -29,6 +29,27 @@ Ogni vista dettaglio allenamento mostra:
 - **Calorie** - Energia attiva bruciata
 - **Meteo** - Temperatura e umidità durante l'allenamento
 
+Il piè di pagina del foglio delle statistiche indica il dispositivo che ha registrato l'allenamento, ad esempio il tuo iPhone o Apple Watch. Gli allenamenti che hanno un luogo ma nessun percorso tracciato mostrano comunque un pin sulla mappa.
+
+## Confronto
+
+Quando hai almeno due allenamenti precedenti dello stesso tipo, la sezione **Confronto** mostra come questo si posiziona rispetto alla media degli ultimi. Le sessioni al coperto e all'aperto sono confrontate separatamente. Ogni riga mostra la media recente, quanto differisce questo allenamento e un piccolo andamento in cui l'ultima barra è questa sessione.
+
+Le metriche confrontate possono includere durata, distanza, energia attiva, ritmo, frequenza cardiaca media e [sforzo](#sforzo). La sezione si nasconde quando non c'è abbastanza cronologia per calcolare una media.
+
+## Sforzo
+
+Valuta quanto è stato impegnativo l'allenamento su una scala da **1 a 10**. Il punteggio viene salvato in Apple Health, così resta sincronizzato con l'app Fitness. Le fasce corrispondono ai nomi di Apple:
+
+| Punteggio | Fascia |
+|-----------|--------|
+| **1–3** | Easy |
+| **4–6** | Moderate |
+| **7–8** | Hard |
+| **9–10** | All Out |
+
+<Note>Le valutazioni dello sforzo richiedono iOS 18 o versioni successive, e Steps necessita dell'autorizzazione per aggiornare Effort nell'app Salute. Se un'altra app possiede già la valutazione, modificala lì o in Salute.</Note>
+
 ## Frequenza cardiaca e zone
 
 {/* TODO: Screenshot of heart rate chart and Time in Zones breakdown */}
@@ -36,7 +57,7 @@ Ogni vista dettaglio allenamento mostra:
   <img src="/images/screenshots/activity-detail-heart-rate-zones.jpg" alt="Heart rate chart and zones" />
 </Frame>
 
-Quando un allenamento contiene dati sulla frequenza cardiaca, la sezione **Frequenza cardiaca** mostra la tua media e il massimo insieme a un grafico della tua frequenza cardiaca durante la sessione.
+Quando un allenamento contiene dati sulla frequenza cardiaca, la sezione **Frequenza cardiaca** mostra la tua media e il massimo insieme a un grafico della tua frequenza cardiaca durante la sessione. Il tracciato è colorato secondo le tue zone di frequenza cardiaca da Apple Health. Durante un allenamento su Apple Watch, quelle zone si aggiornano in diretta.
 
 Sotto il grafico, il dettaglio **Tempo nelle zone** mostra quanto tempo hai trascorso in ciascuna delle cinque zone di frequenza cardiaca, dallo sforzo leggero allo sforzo massimo:
 
@@ -76,10 +97,12 @@ Una barra accanto a ogni frazione facilita il confronto a colpo d'occhio tra i s
 
 Riproduci il percorso del tuo allenamento in 3D per rivivere come ti sei mosso durante la sessione. Una telecamera cinematografica che segue il percorso entra in scena e poi scorre lungo il tuo tragitto, smussando ogni curva mentre traccia la tua posizione.
 
-Puoi personalizzare la riproduzione:
+Apri **Impostazioni mappa** per personalizzare la riproduzione:
 
 - **Stile mappa** — passa tra **Standard** e **Satellitare**. Entrambi mostrano un'altitudine realistica durante la riproduzione per una vera vista 3D.
-- **Velocità** — regola la durata della riproduzione da **15 a 180 secondi**. Steps sceglie un valore predefinito sensato in base alla distanza del tuo allenamento, e puoi accelerarla o rallentarla a piacere.
+- **Colore percorso** — scegli il colore del tracciato.
+- **Durata riproduzione** — da **15 a 180 secondi**. Steps sceglie un valore predefinito sensato in base alla distanza del tuo allenamento.
+- **Nord in alto** — lascia la mappa orientata a nord per tutta la riproduzione, oppure lascia che la telecamera segua la direzione in cui ti muovevi.
 
 ## Condivisione dell'allenamento
 
@@ -115,6 +138,8 @@ Condividi il tuo allenamento come immagine stilizzata. Steps offre quattro stili
 | **Sovrapposto** | Statistiche sovrapposte alla mappa del percorso |
 | **Cornice** | Mappa del percorso con una cornice con bordo per le statistiche |
 | **Foto** | Statistiche sovrapposte a una foto dalla tua libreria |
+
+**Sovrapposto** e **Cornice** funzionano con un percorso GPS tracciato, e anche con un allenamento che ha solo una posizione salvata. L'anteprima trasparente mostra una scacchiera così puoi vedere cosa resterà trasparente.
 
 Puoi anche scegliere tra cinque proporzioni: 16:9, 4:3, 1:1, 3:4 e 9:16.
 

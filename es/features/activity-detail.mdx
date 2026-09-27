@@ -29,6 +29,27 @@ Cada vista de detalle de entrenamiento muestra:
 - **Calorías** - Energía activa quemada
 - **Clima** - Temperatura y humedad durante el entrenamiento
 
+El pie de la hoja de estadísticas nombra el dispositivo que registró el entrenamiento, como tu iPhone o Apple Watch. Los entrenamientos que tienen un lugar pero no una ruta trazada aún muestran un pin en el mapa.
+
+## Comparación
+
+Cuando tienes al menos dos entrenamientos anteriores del mismo tipo, la sección **Comparación** muestra cómo se posiciona este frente al promedio de tus últimos. Las sesiones de interior y exterior se comparan por separado. Cada fila muestra el promedio reciente, cuánto difiere este entrenamiento y una pequeña tendencia donde la última barra es esta sesión.
+
+Las métricas comparadas pueden incluir duración, distancia, energía activa, ritmo, frecuencia cardíaca promedio y [esfuerzo](#effort). La sección se oculta cuando no hay suficiente historial para calcular un promedio.
+
+## Esfuerzo
+
+Califica qué tan duro se sintió el entrenamiento en una escala de **1 a 10**. La puntuación se guarda en Apple Health, así que se mantiene sincronizada con la app Fitness. Los rangos coinciden con los nombres de Apple:
+
+| Puntuación | Rango |
+|------------|-------|
+| **1–3** | Fácil |
+| **4–6** | Moderado |
+| **7–8** | Intenso |
+| **9–10** | Al máximo |
+
+<Note>Las calificaciones de esfuerzo requieren iOS 18 o posterior, y Steps necesita permiso para actualizar el Esfuerzo en la app Salud. Si otra app ya posee la calificación, cámbiala allí o en Salud.</Note>
+
 ## Frecuencia cardíaca y zonas
 
 {/* TODO: Screenshot of heart rate chart and Time in Zones breakdown */}
@@ -36,7 +57,7 @@ Cada vista de detalle de entrenamiento muestra:
   <img src="/images/screenshots/activity-detail-heart-rate-zones.jpg" alt="Heart rate chart and zones" />
 </Frame>
 
-Cuando un entrenamiento tiene datos de frecuencia cardíaca, la sección **Frecuencia cardíaca** muestra tu promedio y máxima junto con un gráfico de tu frecuencia cardíaca durante la sesión.
+Cuando un entrenamiento tiene datos de frecuencia cardíaca, la sección **Frecuencia cardíaca** muestra tu promedio y máxima junto con un gráfico de tu frecuencia cardíaca durante la sesión. El trazo se colorea según tus zonas de frecuencia cardíaca de Apple Health. Durante un entrenamiento en Apple Watch, esas zonas se actualizan en vivo.
 
 Debajo del gráfico, el desglose de **Tiempo en zonas** muestra cuánto tiempo pasaste en cada una de las cinco zonas de frecuencia cardíaca, desde un esfuerzo suave hasta un esfuerzo máximo:
 
@@ -71,15 +92,24 @@ Una barra junto a cada parcial facilita comparar de un vistazo tus segmentos má
 
 {/* TODO: Screenshot of 3D route playback with the follow camera */}
 <Frame caption="Reproducción de ruta en 3D siguiendo el recorrido con una cámara cinematográfica">
-  <img src="/images/screenshots/activity-detail-route-playback.jpg" alt="3D route playback" />
+  <video
+    autoPlay
+    muted
+    loop
+    playsInline
+    className="w-full aspect-video rounded-xl"
+    src="/videos/route-3d.mp4"
+  ></video>
 </Frame>
 
 Reproduce tu ruta de entrenamiento en 3D para revivir cómo te moviste durante tu sesión. Una cámara cinematográfica de seguimiento se acerca y luego se desliza a lo largo de tu recorrido, suavizando cada giro mientras sigue tu posición.
 
-Puedes personalizar la reproducción:
+Abre **Ajustes del mapa** para personalizar la reproducción:
 
 - **Estilo de mapa** — alterna entre **Estándar** y **Satélite**. Ambos muestran una elevación realista durante la reproducción para una verdadera vista en 3D.
-- **Velocidad** — ajusta la duración de la reproducción de **15 a 180 segundos**. Steps elige un valor predeterminado adecuado según la distancia de tu entrenamiento, y puedes acelerarla o ralentizarla a tu gusto.
+- **Color de la ruta** — elige el color del recorrido.
+- **Duración de la reproducción** — de **15 a 180 segundos**. Steps elige un valor predeterminado adecuado según la distancia de tu entrenamiento.
+- **Norte arriba** — deja el mapa apuntando al norte durante toda la reproducción, o deja que la cámara siga la dirección en la que te movías.
 
 ## Compartir tu entrenamiento
 
@@ -115,6 +145,8 @@ Comparte tu entrenamiento como una imagen con estilo. Steps ofrece cuatro estilo
 | **Superposición** | Estadísticas superpuestas sobre el mapa de ruta |
 | **Marco** | Mapa de ruta con un marco de estadísticas con borde |
 | **Foto** | Estadísticas superpuestas sobre una foto de tu biblioteca |
+
+**Superposición** y **Marco** funcionan con una ruta GPS trazada, y también con un entrenamiento que solo tenga un lugar guardado. La vista previa transparente muestra un tablero de ajedrez para que veas qué se mantendrá transparente.
 
 También puedes elegir entre cinco proporciones: 16:9, 4:3, 1:1, 3:4 y 9:16.
 

@@ -21,12 +21,15 @@ When you first open Steps, you'll go through a quick setup to personalize your e
   <Step title="Grant Health Permissions">
     Steps requests access to Apple Health to read your step count, distance, calories, flights climbed, and workout data. Tap **Allow All** for the best experience.
   </Step>
+  <Step title="Join the Stepboard">
+    Sign in with Apple and join the daily leaderboard, or skip it and join later from Home. If you already have an account, the button matches that: **Join Stepboard** when you're signed in, **Continue** when you're already a member.
+  </Step>
   <Step title="Start Walking">
     That's it! Steps begins tracking automatically using your iPhone's motion sensors and Apple Health data.
   </Step>
 </Steps>
 
-Along the way, Steps asks a few quick questions to personalize your experience, invites you to turn on notifications, and introduces features like [Stepboard](/features/stepboard) and [App Lock](/features/app-lock). You can skip any of these and set them up later in Settings.
+Along the way, Steps asks a few quick questions to personalize your experience, invites you to turn on notifications, and introduces features like [Stepboard](/features/stepboard) and [App Lock](/features/app-lock). The Stepboard step tells you how many walkers share your country when that number is available. You can skip any of these and set them up later in Settings.
 
 ## HealthKit Permissions
 
@@ -41,10 +44,11 @@ Steps reads the following data from Apple Health:
 - **Walking + Running Distance** - Distance covered on foot
 - **Active Energy Burned** - Calories burned through activity
 - **Flights Climbed** - Floors you've climbed
-- **Heart Rate** - Used during workouts
+- **Heart Rate** - Used during workouts, including your heart rate zones
 - **Workout Routes** - GPS routes for your recorded workouts
+- **Workout Effort** - The 1–10 rating you set on a workout
 
-<Tip>Steps never writes to or modifies your Apple Health data. It only reads your existing activity information.</Tip>
+<Tip>Rating effort writes that score back to Apple Health, and deleting a workout removes it from Apple Health. Everything else Steps shows is read from the health data already on your device.</Tip>
 
 ## Privacy
 

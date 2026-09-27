@@ -12,24 +12,26 @@ description: "浏览锻炼历史记录、按类型筛选并回顾过往记录"
   <img src="/images/screenshots/activity-list-overview.jpg" alt="Activity list view" />
 </Frame>
 
-您的锻炼按月份分组，最近的排在最上方。每条记录显示：
+您的锻炼按月份分组，最近的排在最上方。每个月都有训练天数和总量的摘要。在较宽的布局上，该摘要在卡片滚动时会保持置顶。每条记录显示：
 
 - 锻炼类型和图标
 - 时长
 - 日期和时间
 - 距离（户外锻炼）
 
+在较宽的三列列表中，日期显示在锻炼名称下方。
+
+## 搜索
+
+活动顶部的搜索栏可接受整句，而不只是关键词。Steps 会借助 Apple Intelligence 将短语转换为筛选条件。占位符会轮播示例，例如 **Morning runs**、**Runs over 5k**、**Long rides this month** 和 **My longest workouts**。
+
+搜索栏下方的自然语言行会把理解到的筛选条件读回给您。在 iOS 27 上，解析在可用时可使用 Private Cloud Compute，Siri 也可以为您打开此搜索。参见 [Siri 快捷指令](/features/siri-shortcuts)。
+
 ## 按类型筛选
 
-使用筛选选项仅显示特定锻炼类型：
+使用筛选标签仅显示特定锻炼类型，包括步行、跑步、骑行、远足、力量训练、瑜伽、HIIT，以及 Steps 从 Apple Health 读取的其他类型。
 
-- 步行
-- 跑步
-- 骑行
-- 远足
-- 所有其他 HealthKit 锻炼类型（游泳、瑜伽、HIIT 等）
-
-当您有较长历史记录时，这有助于快速找到特定锻炼。
+当您有较长历史记录时，这有助于快速找到特定锻炼。搜索与标签可配合使用：搜索会落定匹配的筛选条件，您仍可手动进一步收窄。
 
 ## 历史记录限制
 

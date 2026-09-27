@@ -29,6 +29,27 @@ Jede Workout-Detailansicht zeigt:
 - **Kalorien** - Aktiv verbrannte Energie
 - **Wetter** - Temperatur und Luftfeuchtigkeit während des Workouts
 
+Die Fußzeile des Statistikblatts nennt das Gerät, das das Workout aufgezeichnet hat, zum Beispiel dein iPhone oder deine Apple Watch. Workouts mit einem Ort, aber ohne gezeichneter Route zeigen trotzdem eine Stecknadel auf der Karte.
+
+## Vergleich
+
+Wenn du mindestens zwei frühere Workouts desselben Typs hast, zeigt der Bereich **Vergleich**, wie dieses gegenüber dem Durchschnitt deiner letzten Einheiten abschneidet. Indoor- und Outdoor-Sitzungen werden getrennt verglichen. Jede Zeile zeigt den aktuellen Durchschnitt, wie sich dieses Workout unterscheidet, und einen kleinen Trend, bei dem der letzte Balken diese Sitzung ist.
+
+Verglichene Metriken können Dauer, Distanz, aktive Energie, Tempo, durchschnittliche Herzfrequenz und [Anstrengung](#anstrengung) umfassen. Der Bereich blendet sich aus, wenn es nicht genug Verlauf für einen Durchschnitt gibt.
+
+## Anstrengung
+
+Bewerte, wie anstrengend sich das Workout angefühlt hat, auf einer Skala von **1 bis 10**. Die Bewertung wird in Apple Health gespeichert und bleibt so mit der Fitness-App synchron. Die Stufen entsprechen den Namen von Apple:
+
+| Bewertung | Stufe |
+|-----------|-------|
+| **1–3** | Easy |
+| **4–6** | Moderate |
+| **7–8** | Hard |
+| **9–10** | All Out |
+
+<Note>Anstrengungsbewertungen erfordern iOS 18 oder neuer, und Steps braucht die Berechtigung, Effort in der Health-App zu aktualisieren. Wenn eine andere App die Bewertung bereits besitzt, ändere sie dort oder in Health.</Note>
+
 ## Herzfrequenz & Zonen
 
 {/* TODO: Screenshot of heart rate chart and Time in Zones breakdown */}
@@ -36,7 +57,7 @@ Jede Workout-Detailansicht zeigt:
   <img src="/images/screenshots/activity-detail-heart-rate-zones.jpg" alt="Heart rate chart and zones" />
 </Frame>
 
-Wenn ein Workout Herzfrequenzdaten enthält, zeigt der Bereich **Herzfrequenz** deinen Durchschnitts- und Maximalwert zusammen mit einem Diagramm deiner Herzfrequenz über die Sitzung hinweg.
+Wenn ein Workout Herzfrequenzdaten enthält, zeigt der Bereich **Herzfrequenz** deinen Durchschnitts- und Maximalwert zusammen mit einem Diagramm deiner Herzfrequenz über die Sitzung hinweg. Die Spur ist nach deinen Herzfrequenzzonen aus Apple Health eingefärbt. Während eines Workouts auf der Apple Watch aktualisieren sich diese Zonen live.
 
 Unter dem Diagramm zeigt die Aufschlüsselung **Zeit in Zonen**, wie lange du dich in jeder der fünf Herzfrequenzzonen aufgehalten hast, von leichter Anstrengung bis zur maximalen Anstrengung:
 
@@ -76,10 +97,12 @@ Ein Balken neben jedem Split macht es leicht, deine schnellsten und langsamsten 
 
 Spiele deine Workout-Route in 3D ab, um nachzuerleben, wie du dich durch deine Sitzung bewegt hast. Eine cineastische Verfolgungskamera schwenkt heran und gleitet dann entlang deines Weges, wobei sie jede Kurve geschmeidig durchläuft, während sie deiner Position folgt.
 
-Du kannst die Wiedergabe anpassen:
+Öffne **Karteneinstellungen**, um die Wiedergabe anzupassen:
 
-- **Kartendarstellung** — wechsle zwischen **Standard** und **Satellit**. Beide zeigen während der Wiedergabe eine realistische Höhendarstellung für eine echte 3D-Ansicht.
-- **Geschwindigkeit** — passe die Wiedergabedauer von **15 bis 180 Sekunden** an. Steps wählt einen sinnvollen Standardwert basierend auf der Distanz deines Workouts, und du kannst sie nach Belieben beschleunigen oder verlangsamen.
+- **Kartenstil** — wechsle zwischen **Standard** und **Satellit**. Beide zeigen während der Wiedergabe eine realistische Höhendarstellung für eine echte 3D-Ansicht.
+- **Routenfarbe** — wähle die Farbe des Pfads.
+- **Wiedergabedauer** — von **15 bis 180 Sekunden**. Steps wählt einen sinnvollen Standardwert basierend auf der Distanz deines Workouts.
+- **Norden oben** — lass die Karte während der gesamten Wiedergabe nach Norden zeigen, oder lass die Kamera der Richtung folgen, in die du dich bewegt hast.
 
 ## Workout teilen
 
@@ -115,6 +138,8 @@ Teile dein Workout als gestaltetes Bild. Steps bietet vier Teilen-Stile:
 | **Overlay** | Statistiken über deine Routenkarte gelegt |
 | **Rahmen** | Routenkarte mit einem umrandeten Statistikrahmen |
 | **Foto** | Statistiken über ein Foto aus deiner Bibliothek gelegt |
+
+**Overlay** und **Rahmen** funktionieren für eine gezeichnete GPS-Route und auch für ein Workout, das nur einen gespeicherten Ort hat. Die transparente Vorschau zeigt ein Schachbrettmuster, damit du siehst, was durchscheinend bleibt.
 
 Du kannst auch aus fünf Seitenverhältnissen wählen: 16:9, 4:3, 1:1, 3:4 und 9:16.
 

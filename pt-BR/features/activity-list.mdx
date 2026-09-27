@@ -12,24 +12,26 @@ A Lista de Atividades mostra todos os seus treinos registrados em um só lugar, 
   <img src="/images/screenshots/activity-list-overview.jpg" alt="Activity list view" />
 </Frame>
 
-Seus treinos são agrupados por mês, com o mais recente no topo. Cada entrada mostra:
+Seus treinos são agrupados por mês, com o mais recente no topo. Cada mês tem um resumo de dias treinados e totais. Em um layout largo, esse resumo permanece fixo enquanto os cartões rolam. Cada entrada mostra:
 
 - Tipo e ícone do treino
 - Duração
 - Data e hora
 - Distância (para treinos ao ar livre)
 
+Em uma lista larga de três colunas, a data fica abaixo do nome do treino.
+
+## Pesquisa
+
+O campo de pesquisa no topo de Atividade aceita uma frase, não apenas uma palavra-chave. O Steps transforma a frase em filtros com o Apple Intelligence. O placeholder alterna exemplos como **Corridas matinais**, **Corridas acima de 5k**, **Pedais longos este mês** e **Meus treinos mais longos**.
+
+Uma linha em linguagem natural abaixo do campo lê os filtros de volta para você, para que você veja o que a pesquisa entendeu. No iOS 27, a interpretação pode usar o Private Cloud Compute quando disponível, e o Siri pode abrir essa pesquisa para você. Consulte [Siri Shortcuts](/features/siri-shortcuts).
+
 ## Filtrando por Tipo
 
-Use as opções de filtro para mostrar apenas tipos específicos de treino:
+Use as opções de filtro para mostrar apenas tipos específicos de treino, incluindo caminhada, corrida, ciclismo, trilha, musculação, yoga, HIIT e os outros tipos que o Steps lê do Apple Health.
 
-- Caminhada
-- Corrida
-- Ciclismo
-- Trilha
-- Todos os outros tipos de treino do HealthKit (natação, yoga, HIIT, etc.)
-
-Isso ajuda você a encontrar rapidamente um treino específico quando tem um longo histórico.
+Isso ajuda você a encontrar rapidamente um treino específico quando tem um longo histórico. Pesquisa e filtros funcionam juntos: uma pesquisa define os filtros correspondentes, e você ainda pode refiná-los manualmente.
 
 ## Limites de Histórico
 

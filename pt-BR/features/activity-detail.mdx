@@ -29,6 +29,27 @@ Toda visualização detalhada de treino mostra:
 - **Calorias** - Energia ativa gasta
 - **Clima** - Temperatura e umidade durante o treino
 
+O rodapé da folha de estatísticas indica o dispositivo que registrou o treino, como seu iPhone ou Apple Watch. Treinos que têm um local, mas sem rota traçada, ainda mostram um pin no mapa.
+
+## Comparação
+
+Quando você tem pelo menos dois treinos anteriores do mesmo tipo, a seção **Comparação** mostra como este se compara à média dos seus últimos. Sessões indoor e outdoor são comparadas separadamente. Cada linha mostra a média recente, como este treino difere e uma pequena tendência em que a última barra é esta sessão.
+
+As métricas comparadas podem incluir duração, distância, energia ativa, ritmo, frequência cardíaca média e [esforço](#esforço). A seção se oculta quando não há histórico suficiente para calcular a média.
+
+## Esforço
+
+Avalie o quão intenso o treino pareceu em uma escala de **1 a 10**. A pontuação é salva no Apple Health, para ficar sincronizada com o app Fitness. As faixas seguem os nomes da Apple:
+
+| Pontuação | Faixa |
+|-----------|-------|
+| **1–3** | Fácil |
+| **4–6** | Moderado |
+| **7–8** | Intenso |
+| **9–10** | Máximo |
+
+<Note>As avaliações de esforço precisam do iOS 18 ou posterior, e o Steps precisa de permissão para atualizar Esforço no app Saúde. Se outro app já for dono da avaliação, altere-a lá ou no Saúde.</Note>
+
 ## Frequência Cardíaca e Zonas
 
 {/* TODO: Screenshot of heart rate chart and Time in Zones breakdown */}
@@ -36,7 +57,7 @@ Toda visualização detalhada de treino mostra:
   <img src="/images/screenshots/activity-detail-heart-rate-zones.jpg" alt="Heart rate chart and zones" />
 </Frame>
 
-Quando um treino tem dados de frequência cardíaca, a seção **Frequência Cardíaca** mostra sua média e máxima junto com um gráfico da sua frequência cardíaca ao longo da sessão.
+Quando um treino tem dados de frequência cardíaca, a seção **Frequência Cardíaca** mostra sua média e máxima junto com um gráfico da sua frequência cardíaca ao longo da sessão. O traço é colorido pelas suas zonas de frequência cardíaca do Apple Health. Durante um treino no Apple Watch, essas zonas são atualizadas ao vivo.
 
 Abaixo do gráfico, o detalhamento de **Tempo nas Zonas** mostra quanto tempo você passou em cada uma das cinco zonas de frequência cardíaca, do esforço leve ao esforço máximo:
 
@@ -76,10 +97,12 @@ Uma barra ao lado de cada parcial facilita comparar rapidamente seus segmentos m
 
 Reproduza sua rota de treino em 3D para reviver como você se moveu durante a sessão. Uma câmera de acompanhamento cinematográfica entra em cena e depois desliza ao longo do seu caminho, suavizando cada curva enquanto acompanha sua posição.
 
-Você pode personalizar a reprodução:
+Abra **Configurações do Mapa** para personalizar a reprodução:
 
 - **Estilo do mapa** — alterne entre **Padrão** e **Satélite**. Ambos renderizam elevação realista durante a reprodução para uma verdadeira visualização em 3D.
-- **Velocidade** — ajuste a duração da reprodução de **15 a 180 segundos**. O Steps escolhe um padrão sensato com base na distância do seu treino, e você pode acelerá-la ou desacelerá-la conforme preferir.
+- **Cor da rota** — escolha a cor do caminho.
+- **Duração da reprodução** — de **15 a 180 segundos**. O Steps escolhe um padrão sensato com base na distância do seu treino.
+- **Norte para cima** — deixe o mapa apontando para o norte durante toda a reprodução, ou deixe a câmera seguir a direção em que você estava se movendo.
 
 ## Compartilhando Seu Treino
 
@@ -115,6 +138,8 @@ Compartilhe seu treino como uma imagem estilizada. O Steps oferece quatro estilo
 | **Sobreposto** | Estatísticas sobrepostas no mapa de rota |
 | **Moldura** | Mapa de rota com uma moldura de estatísticas com borda |
 | **Foto** | Estatísticas sobrepostas em uma foto |
+
+**Sobreposto** e **Moldura** funcionam com uma rota GPS traçada e também com um treino que tem apenas um local salvo. A prévia transparente mostra um tabuleiro de xadrez para você ver o que permanecerá transparente.
 
 Você também pode escolher entre cinco proporções: 16:9, 4:3, 1:1, 3:4 e 9:16.
 
