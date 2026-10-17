@@ -7,7 +7,7 @@ Steps 让您可以轻松地从 iPhone 开始追踪每日步数、锻炼和健身
 
 ## 引导设置
 
-首次打开 Steps 时，您将完成一个快速设置以个性化您的体验：
+首次打开 Steps 时，一个简短的设置流程会帮您做好准备：
 
 {/* TODO: Screenshot of onboarding screen - step goal picker */}
 <Frame caption="Steps 引导设置流程">
@@ -15,21 +15,33 @@ Steps 让您可以轻松地从 iPhone 开始追踪每日步数、锻炼和健身
 </Frame>
 
 <Steps>
-  <Step title="设置每日目标">
-    使用滚轮选择器选择 1,000 到 20,000 步之间的步数目标。您可以随时在设置中更改此项。
+  <Step title="告诉 Steps 您的活跃程度">
+    选择**轻度**、**适度**、**活跃**或**高强度**。Steps 会根据您的回答建议一个每日目标。
   </Step>
-  <Step title="授予健康权限">
-    Steps 请求访问 Apple Health 以读取您的步数、距离、卡路里、爬楼层数和锻炼数据。点击**全部允许**以获得最佳体验。
+  <Step title="连接 Apple Health">
+    点击**连接 Apple 健康**，然后点击**全部允许**，让 Steps 读取来自 iPhone 和 Apple Watch 的步数、距离、卡路里、爬楼层数和锻炼记录。如果您关闭了访问权限，请点击**打开设置**，在**隐私 → 健康**中允许访问，然后点击**已启用 — 重新检查**。
+  </Step>
+  <Step title="查看最近 7 天">
+    连接 Apple Health 后，Steps 会显示您过去一周已记录的步数、卡路里和锻炼。
+  </Step>
+  <Step title="设置每日目标">
+    选择器会从根据您的活跃程度建议的目标开始，轻度为 5,000 步，高强度最高为 15,000 步。您可以在 1,000 到 20,000 步之间任意选择，也可以随时在设置中更改。
   </Step>
   <Step title="加入 Stepboard">
     使用 Apple 登录并加入每日排行榜，或跳过并稍后从主页加入。如果您已有账户，按钮会相应变化：已登录时为**加入 Stepboard**，已是成员时为**继续**。
+  </Step>
+  <Step title="了解应用锁定">
+    简要介绍[应用锁定](/zh/features/app-lock)：在您达成步数目标之前，让分心的应用保持锁定。准备好后，随时可以在设置中进行设置。
+  </Step>
+  <Step title="开启通知">
+    点击**开启通知**，即可收到每日提醒、达成目标时的庆祝，以及应用解锁时的提示。点击**稍后再说**即可跳过。
   </Step>
   <Step title="开始行走">
     就这样！Steps 使用您 iPhone 的运动传感器和 Apple Health 数据自动开始追踪。
   </Step>
 </Steps>
 
-在此过程中，Steps 会询问几个简短的问题以个性化您的体验，邀请您开启通知，并介绍诸如[步数排行榜](/features/stepboard)和[应用锁定](/features/app-lock)之类的功能。Stepboard 步骤会在有数据时说明与您同国家/地区的步行者人数。您可以跳过其中任何一项，稍后在设置中再进行配置。
+在设置目标和加入 Stepboard 之间，会短暂显示 **Apple 精选** 页面。Stepboard 步骤会在有数据时说明与您同国家/地区的步行者人数。只有连接 Apple Health 这一步无法跳过：[步数排行榜](/zh/features/stepboard)、[应用锁定](/zh/features/app-lock)和[通知](/zh/features/notifications)都可以稍后再设置。
 
 ## HealthKit 权限
 

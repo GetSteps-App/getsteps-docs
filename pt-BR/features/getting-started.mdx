@@ -7,7 +7,7 @@ O Steps facilita o início do monitoramento dos seus passos diários, treinos e 
 
 ## Configuração Inicial
 
-Quando você abre o Steps pela primeira vez, você passa por uma configuração rápida para personalizar sua experiência:
+Quando você abre o Steps pela primeira vez, uma configuração rápida deixa tudo pronto para começar:
 
 {/* TODO: Screenshot of onboarding screen - step goal picker */}
 <Frame caption="Fluxo de configuração inicial do Steps">
@@ -15,21 +15,33 @@ Quando você abre o Steps pela primeira vez, você passa por uma configuração 
 </Frame>
 
 <Steps>
-  <Step title="Defina Sua Meta Diária">
-    Escolha uma meta de passos entre 1.000 e 20.000 usando o seletor de rolagem. Você pode alterar isso a qualquer momento nas Configurações.
+  <Step title="Diga o Quanto Você É Ativo">
+    Escolha **Leve**, **Moderado**, **Ativo** ou **Intenso**. O Steps usa sua resposta para sugerir uma meta diária.
   </Step>
-  <Step title="Conceda Permissões de Saúde">
-    O Steps solicita acesso ao Apple Health para ler sua contagem de passos, distância, calorias, andares subidos e dados de treino. Toque em **Permitir Tudo** para a melhor experiência.
+  <Step title="Conecte o Apple Health">
+    Toque em **Conectar Apple Saúde** e depois em **Permitir Tudo** para que o Steps leia seus passos, distância, calorias, andares subidos e treinos do iPhone e do Apple Watch. Se você desativou o acesso, toque em **Abrir Ajustes**, permita em **Privacidade → Saúde** e depois toque em **Já ativei — verifique de novo**.
+  </Step>
+  <Step title="Veja Seus Últimos 7 Dias">
+    Assim que o Apple Health estiver conectado, o Steps mostra os passos, calorias e treinos que você já registrou na última semana.
+  </Step>
+  <Step title="Defina Sua Meta Diária">
+    O seletor começa na meta sugerida para o seu nível de atividade, de 5.000 passos para Leve até 15.000 para Intenso. Escolha qualquer valor entre 1.000 e 20.000 passos. Você pode alterar isso a qualquer momento nas Configurações.
   </Step>
   <Step title="Entre na Stepboard">
     Inicie sessão com a Apple e entre no ranking diário, ou pule e entre depois pela tela Inicial. Se você já tiver uma conta, o botão combina com isso: **Entrar na Stepboard** quando você estiver conectado, **Continuar** quando já for membro.
+  </Step>
+  <Step title="Conheça o Bloqueio de Apps">
+    Uma breve apresentação do [Bloqueio de Apps](/pt-BR/features/app-lock), que mantém os apps que distraem bloqueados até você atingir sua meta de passos. Configure nas Configurações quando quiser.
+  </Step>
+  <Step title="Ative as Notificações">
+    Toque em **Ativar notificações** para receber lembretes diários, uma comemoração quando você atingir sua meta e um aviso quando seus apps forem desbloqueados. Toque em **Talvez mais tarde** para pular.
   </Step>
   <Step title="Comece a Caminhar">
     É isso! O Steps começa a monitorar automaticamente usando os sensores de movimento do seu iPhone e os dados do Apple Health.
   </Step>
 </Steps>
 
-Ao longo do caminho, o Steps faz algumas perguntas rápidas para personalizar sua experiência, convida você a ativar as notificações e apresenta recursos como a [Stepboard](/features/stepboard) e o [Bloqueio de Apps](/features/app-lock). O passo da Stepboard informa quantos caminhantes compartilham o seu país quando esse número está disponível. Você pode pular qualquer um deles e configurá-los mais tarde nas Configurações.
+Entre a sua meta e a Stepboard aparece uma breve tela **Destaque da Apple**. O passo da Stepboard informa quantos caminhantes compartilham o seu país quando esse número está disponível. O Apple Health é o único passo que não pode ser pulado: a [Stepboard](/pt-BR/features/stepboard), o [Bloqueio de Apps](/pt-BR/features/app-lock) e as [Notificações](/pt-BR/features/notifications) podem ser configurados mais tarde.
 
 ## Permissões do HealthKit
 

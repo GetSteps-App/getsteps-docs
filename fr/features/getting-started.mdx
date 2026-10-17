@@ -7,7 +7,7 @@ Steps facilite le suivi de vos pas quotidiens, de vos entraînements et de vos o
 
 ## Intégration
 
-Lors de votre première ouverture de Steps, vous passerez par une configuration rapide pour personnaliser votre expérience :
+Lors de votre première ouverture de Steps, une courte configuration vous prépare à démarrer :
 
 {/* TODO: Screenshot of onboarding screen - step goal picker */}
 <Frame caption="Flux d'intégration Steps">
@@ -15,21 +15,33 @@ Lors de votre première ouverture de Steps, vous passerez par une configuration 
 </Frame>
 
 <Steps>
-  <Step title="Définissez votre objectif quotidien">
-    Choisissez un objectif de pas entre 1 000 et 20 000 pas à l'aide du sélecteur défilant. Vous pourrez toujours le modifier ultérieurement dans les Réglages.
+  <Step title="Indiquez votre niveau d'activité">
+    Choisissez **Léger**, **Modéré**, **Actif** ou **Intense**. Steps utilise votre réponse pour vous suggérer un objectif quotidien.
   </Step>
-  <Step title="Accordez les autorisations de santé">
-    Steps demande l'accès à Apple Health pour lire votre nombre de pas, la distance, les calories, les étages montés et les données d'entraînement. Appuyez sur **Tout autoriser** pour une expérience optimale.
+  <Step title="Connectez Apple Health">
+    Appuyez sur **Connecter Apple Santé**, puis sur **Tout autoriser** pour que Steps puisse lire vos pas, la distance, les calories, les étages montés et vos entraînements depuis votre iPhone et votre Apple Watch. Si vous avez désactivé l'accès, appuyez sur **Ouvrir Réglages**, autorisez-le dans **Confidentialité → Santé**, puis appuyez sur **C'est activé — vérifie à nouveau**.
+  </Step>
+  <Step title="Découvrez vos 7 derniers jours">
+    Une fois Apple Health connecté, Steps affiche les pas, les calories et les entraînements que vous avez déjà enregistrés au cours de la semaine passée.
+  </Step>
+  <Step title="Définissez votre objectif quotidien">
+    Le sélecteur démarre à l'objectif suggéré pour votre niveau d'activité, de 5 000 pas pour Léger à 15 000 pour Intense. Choisissez une valeur entre 1 000 et 20 000 pas. Vous pourrez toujours le modifier ultérieurement dans les Réglages.
   </Step>
   <Step title="Rejoignez le Stepboard">
     Connectez-vous avec Apple et rejoignez le classement quotidien, ou ignorez et rejoignez plus tard depuis l'accueil. Si vous avez déjà un compte, le bouton s'adapte : **Rejoindre le Stepboard** lorsque vous êtes connecté, **Continuer** lorsque vous êtes déjà membre.
+  </Step>
+  <Step title="Découvrez le Verrouillage d'application">
+    Une brève présentation du [Verrouillage d'application](/fr/features/app-lock), qui garde les apps distrayantes verrouillées jusqu'à ce que vous atteigniez votre objectif de pas. Configurez-le dans les Réglages quand vous le souhaitez.
+  </Step>
+  <Step title="Activez les notifications">
+    Appuyez sur **Activer les notifications** pour recevoir des rappels quotidiens, une célébration quand vous atteignez votre objectif et une alerte quand vos apps se déverrouillent. Appuyez sur **Peut-être plus tard** pour passer.
   </Step>
   <Step title="Commencez à marcher">
     C'est tout ! Steps commence à suivre automatiquement en utilisant les capteurs de mouvement de votre iPhone et les données Apple Health.
   </Step>
 </Steps>
 
-En chemin, Steps vous pose quelques questions rapides pour personnaliser votre expérience, vous invite à activer les notifications, et vous présente des fonctionnalités comme le [Stepboard](/features/stepboard) et le [Verrouillage d'application](/features/app-lock). L'étape Stepboard indique combien de marcheurs partagent votre pays lorsque ce nombre est disponible. Vous pouvez ignorer l'une de ces étapes et les configurer plus tard dans les Réglages.
+Entre votre objectif et le Stepboard, un bref écran **Mise en avant par Apple** s'affiche. L'étape Stepboard indique combien de marcheurs partagent votre pays lorsque ce nombre est disponible. Apple Health est la seule étape obligatoire : le [Stepboard](/fr/features/stepboard), le [Verrouillage d'application](/fr/features/app-lock) et les [Notifications](/fr/features/notifications) peuvent tous être configurés plus tard.
 
 ## Autorisations HealthKit
 

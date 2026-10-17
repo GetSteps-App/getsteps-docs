@@ -7,7 +7,7 @@ Steps makes it easy to start tracking your daily steps, workouts, and fitness go
 
 ## Onboarding
 
-When you first open Steps, you'll go through a quick setup to personalize your experience:
+When you first open Steps, a short setup gets you ready to go:
 
 {/* TODO: Screenshot of onboarding screen - step goal picker */}
 <Frame caption="Steps onboarding flow">
@@ -15,21 +15,33 @@ When you first open Steps, you'll go through a quick setup to personalize your e
 </Frame>
 
 <Steps>
-  <Step title="Set Your Daily Goal">
-    Choose a step goal between 1,000 and 20,000 steps using the scroll picker. You can always change this later in Settings.
+  <Step title="Tell Steps How Active You Are">
+    Pick **Light**, **Moderate**, **Active**, or **Intense**. Steps uses your answer to suggest a daily goal.
   </Step>
-  <Step title="Grant Health Permissions">
-    Steps requests access to Apple Health to read your step count, distance, calories, flights climbed, and workout data. Tap **Allow All** for the best experience.
+  <Step title="Connect Apple Health">
+    Tap **Connect Apple Health**, then **Allow All** so Steps can read your steps, distance, calories, flights climbed, and workouts from your iPhone and Apple Watch. If you turned access off, tap **Open Settings**, allow it under **Privacy → Health**, then tap **I've enabled it — check again**.
+  </Step>
+  <Step title="See Your Last 7 Days">
+    Once Apple Health is connected, Steps shows the steps, calories, and workouts you've already logged this past week.
+  </Step>
+  <Step title="Set Your Daily Goal">
+    The picker starts at the goal suggested for your activity level, from 5,000 steps for Light up to 15,000 for Intense. Choose anything between 1,000 and 20,000 steps. You can always change it later in Settings.
   </Step>
   <Step title="Join the Stepboard">
     Sign in with Apple and join the daily leaderboard, or skip it and join later from Home. If you already have an account, the button matches that: **Join Stepboard** when you're signed in, **Continue** when you're already a member.
+  </Step>
+  <Step title="Meet App Lock">
+    A quick introduction to [App Lock](/features/app-lock), which keeps distracting apps locked until you reach your step goal. Set it up whenever you're ready in Settings.
+  </Step>
+  <Step title="Turn On Notifications">
+    Tap **Turn on notifications** for daily reminders, a celebration when you hit your goal, and a heads-up when your apps unlock. Tap **Maybe later** to skip.
   </Step>
   <Step title="Start Walking">
     That's it! Steps begins tracking automatically using your iPhone's motion sensors and Apple Health data.
   </Step>
 </Steps>
 
-Along the way, Steps asks a few quick questions to personalize your experience, invites you to turn on notifications, and introduces features like [Stepboard](/features/stepboard) and [App Lock](/features/app-lock). The Stepboard step tells you how many walkers share your country when that number is available. You can skip any of these and set them up later in Settings.
+Between your goal and the Stepboard, a short **Featured by Apple** screen appears. The Stepboard step tells you how many walkers share your country when that number is available. Apple Health is the only step you can't skip: [Stepboard](/features/stepboard), [App Lock](/features/app-lock), and [Notifications](/features/notifications) can all be set up later.
 
 ## HealthKit Permissions
 
