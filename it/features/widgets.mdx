@@ -7,46 +7,46 @@ Steps offre una varietà di widget per visualizzare il conteggio dei passi, le s
 
 ## Tipi di widget
 
-{/* TODO: Screenshot showing Home Screen widgets in action */}
 <Frame caption="Widget di Steps sulla schermata Home">
   <img src="/images/screenshots/widgets-home-screen.jpg" alt="Home Screen widgets" />
 </Frame>
 
-| Widget | Dimensioni | Descrizione |
-|--------|-----------|-------------|
-| **Passi di oggi** | Piccolo, Schermata di blocco (rettangolare, in linea, circolare) | Conteggio passi attuale e progresso verso l'obiettivo |
-| **Calendario mensile** | Medio | Griglia calendario che mostra il completamento dell'obiettivo giornaliero per il mese |
-| **Calendario annuale** | Medio, Grande | Calendario annuale con mappa di calore del completamento obiettivo |
-| **Obiettivo annuale** | Piccolo, Medio | Progresso verso il tuo obiettivo annuale di passi con stato e statistiche |
-| **Grafico orario** | Medio | Grafico a barre dei passi per ora di oggi |
-| **Grafico settimanale** | Medio | Grafico a barre dei passi degli ultimi 7 giorni |
-| **Grafico mensile** | Medio | Grafico a barre dei passi del mese corrente |
-| **Serie** | Piccolo, Medio | Conteggio serie attuale e progresso obiettivo settimanale |
-| **Highlights allenamento** | Piccolo | Le statistiche del tuo allenamento più recente |
-| **Classifica Stepboard** | Piccolo | I primi 5 di oggi nella classifica più la tua posizione |
-| **Avvia allenamento** | Piccolo, Medio | Inizia direttamente un tipo di allenamento con un solo tocco |
-| **Calendario allenamenti** | Medio, Grande, Extra Large | Giorni allenati contrassegnati con l'attività di quel giorno |
+| Widget | Dimensioni | Piano | Descrizione |
+|--------|-----------|-------|-------------|
+| **Passi di oggi** | Piccolo, Schermata di blocco (rettangolare, in linea, circolare) | Gratuito | Conteggio passi attuale e progresso verso l'obiettivo |
+| **Serie** | Piccolo, Medio | Gratuito | Conteggio serie attuale e progresso obiettivo settimanale |
+| **Classifica Stepboard** | Piccolo | Gratuito | I primi 5 di oggi nella classifica più la tua posizione |
+| **Avvia allenamento** | Piccolo | Gratuito | Inizia direttamente un tipo di allenamento con un solo tocco (iOS 26+) |
+| **Allenamenti ad avvio rapido** | Medio | Gratuito | Il tuo allenamento principale più scorciatoie per altri tre tipi (iOS 26+) |
+| **Grafico orario** | Medio | Pro | Grafico a barre dei passi per ora di oggi |
+| **Grafico settimanale** | Piccolo, Medio | Pro | Grafico a barre dei passi degli ultimi 7 giorni |
+| **Grafico mensile** | Medio | Pro | Grafico a barre dei passi del mese corrente |
+| **Calendario mensile** | Piccolo | Pro | Griglia calendario che mostra il completamento dell'obiettivo giornaliero per il mese |
+| **Calendario annuale** | Medio, Grande | Pro | Calendario annuale con mappa di calore del completamento obiettivo |
+| **Obiettivo annuale** | Piccolo, Medio | Pro | Progresso verso il tuo obiettivo annuale di passi con stato e statistiche |
+| **Highlights allenamento** | Piccolo | Pro | Le statistiche del tuo allenamento più recente |
+| **Calendario allenamenti** | Medio, Grande, Extra Large | Pro | Giorni allenati contrassegnati con l'attività di quel giorno |
+
+<Note>I widget Pro si possono aggiungere anche senza abbonamento: mostrano un invito a sbloccare Steps Pro finché non effettui l'upgrade.</Note>
 
 ## Widget Classifica Stepboard
 
-{/* TODO: Screenshot of the Stepboard Ranking widget on the Home Screen */}
 <Frame caption="Widget Classifica Stepboard che mostra i primi 5 di oggi e la tua posizione">
   <img src="/images/screenshots/widgets-stepboard-ranking.jpg" alt="Stepboard Ranking widget" />
 </Frame>
 
-Il widget Classifica Stepboard mette la tua [Stepboard](/it/features/stepboard) sulla schermata Home. Mostra i 5 migliori camminatori di oggi con emoji medaglia per i leader, più la tua posizione se sei fuori dai primi 5. Quando aggiungi il widget, puoi scegliere quale tabellone visualizza — il tabellone World o qualsiasi gruppo a cui ti sei unito. Tocca il widget per saltare direttamente in quel tabellone.
+Il widget Classifica Stepboard mette la tua [Stepboard](/it/features/stepboard) sulla schermata Home. Mostra i 5 migliori camminatori di oggi con emoji medaglia per i leader, più la tua posizione se sei fuori dai primi 5. Quando aggiungi il widget, puoi scegliere quale tabellone visualizza — il tabellone World, il tabellone del tuo paese o qualsiasi gruppo a cui ti sei unito. Tocca il widget per saltare direttamente in quel tabellone.
 
 ## Widget Avvia allenamento
 
-{/* TODO: Screenshot of the Start Workout widget on the Home Screen */}
 <Frame caption="Widget Avvia allenamento per il monitoraggio degli allenamenti con un solo tocco">
   <img src="/images/screenshots/widgets-start-workout.jpg" alt="Start Workout widget" />
 </Frame>
 
-Il widget Avvia allenamento ti permette di iniziare a monitorare un [allenamento](/it/features/workout-session) direttamente dalla tua schermata Home. Toccalo e Steps si apre direttamente su quel tipo di allenamento — senza menu da scorrere.
+I widget Avvia allenamento ti permettono di iniziare a monitorare un [allenamento](/it/features/workout-session) direttamente dalla tua schermata Home. Toccane uno e Steps si apre direttamente su quel tipo di allenamento — senza menu da scorrere. Entrambi richiedono iOS 26 o versioni successive.
 
-- **Piccolo** — un singolo tipo di allenamento configurabile con un pulsante Avvia
-- **Medio** — il tuo allenamento principale più scorciatoie di avvio rapido per altri tre tipi
+- **Avvia allenamento** (piccolo) — un singolo tipo di allenamento configurabile con un pulsante Avvia
+- **Allenamenti ad avvio rapido** (medio) — il tuo allenamento principale più scorciatoie di avvio rapido per altri tre tipi
 
 Quando aggiungi il widget, scegli quale tipo di allenamento avvia. Sono disponibili gli stessi tipi che puoi avviare nell'app, inclusi allenamento della forza, HIIT, yoga e il resto dell'[elenco allenamenti](/it/features/workout-session#tipi-di-allenamento). Se un allenamento è già in corso, toccando il widget si apre invece la sessione attiva.
 
@@ -94,7 +94,6 @@ Il Dynamic Island alterna tra le statistiche ogni 30 secondi. Su iOS 27, un alle
 
 ## Widget per la schermata di blocco
 
-{/* TODO: Screenshot of Lock Screen widgets (rectangular, inline, circular) */}
 <Frame caption="Widget di Steps per la schermata di blocco in tre stili">
   <img src="/images/screenshots/widgets-lock-screen.jpg" alt="Lock Screen widgets" />
 </Frame>
@@ -109,18 +108,8 @@ Il widget Passi di oggi è disponibile anche per la schermata di blocco in tre s
 
 ## Mantenere i widget aggiornati
 
-Per fare in modo che i widget si aggiornino frequentemente con i dati dei passi più recenti, l'**Aggiornamento app in background** deve essere abilitato per Steps.
+I widget dei passi leggono i passi di oggi e di ieri direttamente da Apple Health ogni volta che si aggiornano, così restano aggiornati anche se non apri Steps da un po'. Anche le serie restano precise a cavallo della mezzanotte.
 
-<Steps>
-  <Step title="Apri Impostazioni">
-    Vai su **Impostazioni → Generali → Aggiornamento app in background**.
-  </Step>
-  <Step title="Attiva l'aggiornamento in background">
-    Assicurati che l'opzione principale sia impostata su **Wi-Fi e dati cellulare** (o almeno **Wi-Fi**).
-  </Step>
-  <Step title="Attiva per Steps">
-    Scorri verso il basso e assicurati che l'interruttore accanto a **Steps** sia attivato.
-  </Step>
-</Steps>
+<Note>I dati di Apple Health non possono essere letti mentre il tuo iPhone è bloccato. In quel periodo, i widget mostrano gli ultimi passi registrati da Steps e si rimettono in pari al primo aggiornamento dopo lo sblocco.</Note>
 
-<Warning>Se l'aggiornamento app in background è disattivato, i tuoi widget potrebbero mostrare conteggi di passi non aggiornati e si aggiorneranno solo quando apri l'app.</Warning>
+<Tip>Tenere attivo l'**Aggiornamento app in background** per Steps (**Impostazioni → Generali → Aggiornamento app in background**) permette all'app di sincronizzare tutta la cronologia in background, mantenendo aggiornati anche i grafici e i widget calendario.</Tip>

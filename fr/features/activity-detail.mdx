@@ -1,13 +1,12 @@
 ---
 title: "Détail de l'activité"
-description: "Consultez les statistiques d'entraînement, les cartes d'itinéraire, le mode de lecture et partagez ou exportez vos activités"
+description: "Consultez les statistiques d'entraînement, les cartes d'itinéraire, les photos, le mode de lecture et partagez ou exportez vos activités"
 ---
 
-La vue Détail de l'activité vous offre une analyse complète de tout entraînement enregistré, incluant votre itinéraire, vos statistiques et vos options de partage.
+La vue Détail de l'activité vous offre une analyse complète de tout entraînement enregistré, incluant votre itinéraire, vos statistiques, vos photos et vos options de partage.
 
 ## Carte de l'itinéraire
 
-{/* TODO: Screenshot of activity detail with route map and workout stats */}
 <Frame caption="Vue détaillée de l'activité avec la carte de l'itinéraire GPS et les statistiques d'entraînement">
   <img src="/images/screenshots/activity-detail-route.jpg" alt="Activity detail with route map" />
 </Frame>
@@ -52,7 +51,6 @@ Notez à quel point l'entraînement vous a semblé difficile sur une échelle de
 
 ## Fréquence cardiaque et zones
 
-{/* TODO: Screenshot of heart rate chart and Time in Zones breakdown */}
 <Frame caption="Graphique de fréquence cardiaque avec la répartition du temps dans les zones">
   <img src="/images/screenshots/activity-detail-heart-rate-zones.jpg" alt="Heart rate chart and zones" />
 </Frame>
@@ -73,7 +71,6 @@ Chaque zone affiche le temps qui y a été passé et sa plage de fréquence card
 
 ## Fractionnés
 
-{/* TODO: Screenshot of the splits table */}
 <Frame caption="Répartition par fractionné avec l'allure, le temps et la fréquence cardiaque moyenne">
   <img src="/images/screenshots/activity-detail-splits.jpg" alt="Workout splits table" />
 </Frame>
@@ -90,9 +87,15 @@ Une barre à côté de chaque fractionné permet de comparer facilement vos segm
 
 <Note>La lecture de l'itinéraire est une fonctionnalité Pro.</Note>
 
-{/* TODO: Screenshot of 3D route playback with the follow camera */}
 <Frame caption="Lecture d'itinéraire en 3D suivant l'itinéraire avec une caméra cinématique">
-  <img src="/images/screenshots/activity-detail-route-playback.jpg" alt="3D route playback" />
+  <video
+    autoPlay
+    muted
+    loop
+    playsInline
+    className="w-full aspect-video rounded-xl"
+    src="/videos/route-3d.mp4"
+  ></video>
 </Frame>
 
 Rejouez votre itinéraire d'entraînement en 3D pour revivre la façon dont vous vous êtes déplacé pendant votre session. Une caméra de suivi cinématique plonge sur la scène puis glisse le long de votre trajet, lissant chaque virage tout en suivant votre position.
@@ -104,11 +107,27 @@ Ouvrez **Réglages de la carte** pour personnaliser la lecture :
 - **Durée de lecture** — de **15 à 180 secondes**. Steps choisit une valeur par défaut adaptée à la distance de votre entraînement.
 - **Nord en haut** — laissez la carte orientée au nord pendant toute la lecture, ou laissez la caméra suivre la direction dans laquelle vous avanciez.
 
+## Photos
+
+<Frame caption="Photos ajoutées à un entraînement, à la fin de la feuille de statistiques">
+  <img src="/images/screenshots/activity-detail-photos.jpg" alt="Workout photos section" />
+</Frame>
+
+Ajoutez à n'importe quel entraînement les photos que vous avez prises en chemin. La section **Photos** se trouve à la fin de la feuille de statistiques.
+
+- **Ajouter** — choisissez n'importe quelles photos de votre photothèque, jusqu'à 20 à la fois
+- **Rechercher les photos prises pendant cet entraînement** — Steps recherche dans votre photothèque les photos prises entre l'heure de début et l'heure de fin de l'entraînement. Les suggestions apparaissent sous **Prises pendant cet entraînement** ; appuyez sur l'une d'elles pour l'ajouter, ou appuyez sur **Tout ajouter**
+
+Les photos ajoutées apparaissent aussi sous forme d'épingles sur la carte de l'itinéraire, placées selon le moment (ou l'endroit) où vous les avez prises, et s'affichent en chemin lorsque le marqueur les atteint pendant la [lecture de l'itinéraire](#lecture-de-l-itinéraire). Appuyez sur une photo pour l'afficher en plein écran.
+
+Pour retirer une photo, maintenez-la enfoncée et choisissez **Supprimer la photo**. Steps conserve sa propre copie de chaque photo : la retirer d'un entraînement ne supprime donc jamais l'original de votre photothèque.
+
+<Note>La recherche des photos prises pendant un entraînement nécessite l'accès à votre photothèque. Si vous ne l'avez pas autorisé, Steps affiche un bouton pour ouvrir les Réglages. L'ajout de photos avec **Ajouter** fonctionne sans accès complet à la photothèque.</Note>
+
 ## Partager votre entraînement
 
 Partagez votre entraînement sous forme d'image stylisée. Steps propose quatre styles de partage :
 
-{/* TODO: 4 screenshots - one for each share style */}
 <Tabs>
   <Tab title="Transparent">
     <Frame>

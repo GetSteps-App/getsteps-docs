@@ -1,13 +1,12 @@
 ---
 title: "Detalhe da Atividade"
-description: "Veja estatísticas do treino, mapas de rota, modo de reprodução e compartilhe ou exporte suas atividades"
+description: "Veja estatísticas do treino, mapas de rota, fotos, modo de reprodução e compartilhe ou exporte suas atividades"
 ---
 
-A visualização de Detalhe da Atividade fornece um detalhamento completo de qualquer treino registrado, incluindo sua rota, estatísticas e opções de compartilhamento.
+A visualização de Detalhe da Atividade fornece um detalhamento completo de qualquer treino registrado, incluindo sua rota, estatísticas, fotos e opções de compartilhamento.
 
 ## Mapa de Rota
 
-{/* TODO: Screenshot of activity detail with route map and workout stats */}
 <Frame caption="Visualização detalhada da atividade com mapa de rota GPS e estatísticas do treino">
   <img src="/images/screenshots/activity-detail-route.jpg" alt="Activity detail with route map" />
 </Frame>
@@ -52,7 +51,6 @@ Avalie o quão intenso o treino pareceu em uma escala de **1 a 10**. A pontuaç�
 
 ## Frequência Cardíaca e Zonas
 
-{/* TODO: Screenshot of heart rate chart and Time in Zones breakdown */}
 <Frame caption="Gráfico de frequência cardíaca com o detalhamento de Tempo nas Zonas">
   <img src="/images/screenshots/activity-detail-heart-rate-zones.jpg" alt="Heart rate chart and zones" />
 </Frame>
@@ -73,7 +71,6 @@ Cada zona mostra o tempo passado nela e sua faixa de frequência cardíaca em bp
 
 ## Parciais
 
-{/* TODO: Screenshot of the splits table */}
 <Frame caption="Detalhamento por parcial com ritmo, tempo e frequência cardíaca média">
   <img src="/images/screenshots/activity-detail-splits.jpg" alt="Workout splits table" />
 </Frame>
@@ -90,9 +87,15 @@ Uma barra ao lado de cada parcial facilita comparar rapidamente seus segmentos m
 
 <Note>A reprodução de rota é um recurso Pro.</Note>
 
-{/* TODO: Screenshot of 3D route playback with the follow camera */}
 <Frame caption="Reprodução de rota em 3D seguindo a rota com uma câmera cinematográfica">
-  <img src="/images/screenshots/activity-detail-route-playback.jpg" alt="3D route playback" />
+  <video
+    autoPlay
+    muted
+    loop
+    playsInline
+    className="w-full aspect-video rounded-xl"
+    src="/videos/route-3d.mp4"
+  ></video>
 </Frame>
 
 Reproduza sua rota de treino em 3D para reviver como você se moveu durante a sessão. Uma câmera de acompanhamento cinematográfica entra em cena e depois desliza ao longo do seu caminho, suavizando cada curva enquanto acompanha sua posição.
@@ -104,11 +107,27 @@ Abra **Configurações do Mapa** para personalizar a reprodução:
 - **Duração da reprodução** — de **15 a 180 segundos**. O Steps escolhe um padrão sensato com base na distância do seu treino.
 - **Norte para cima** — deixe o mapa apontando para o norte durante toda a reprodução, ou deixe a câmera seguir a direção em que você estava se movendo.
 
+## Fotos
+
+<Frame caption="Fotos anexadas a um treino, no final da folha de estatísticas">
+  <img src="/images/screenshots/activity-detail-photos.jpg" alt="Workout photos section" />
+</Frame>
+
+Adicione a qualquer treino as fotos que você tirou pelo caminho. A seção **Fotos** fica no final da folha de estatísticas.
+
+- **Adicionar** — escolha quaisquer fotos da sua biblioteca, até 20 de cada vez
+- **Buscar fotos tiradas durante este treino** — o Steps procura na sua biblioteca fotos capturadas entre o horário de início e de término do treino. As sugestões aparecem em **Tiradas durante este treino**; toque em uma para anexá-la ou toque em **Adicionar todas**
+
+As fotos anexadas também aparecem como pins no mapa da rota, posicionadas de acordo com quando (ou onde) você as tirou, e surgem pelo caminho quando o marcador passa por elas durante a [reprodução de rota](#reprodução-de-rota). Toque em uma foto para vê-la em tela cheia.
+
+Para remover uma foto, toque e segure sobre ela e escolha **Remover foto**. O Steps mantém sua própria cópia de cada foto, então removê-la de um treino nunca apaga o original da sua biblioteca.
+
+<Note>Buscar fotos tiradas durante um treino requer acesso à sua biblioteca de fotos. Se você não permitiu, o Steps mostra um botão para abrir os Ajustes. Adicionar fotos com **Adicionar** funciona sem acesso completo à biblioteca.</Note>
+
 ## Compartilhando Seu Treino
 
 Compartilhe seu treino como uma imagem estilizada. O Steps oferece quatro estilos de compartilhamento:
 
-{/* TODO: 4 screenshots - one for each share style */}
 <Tabs>
   <Tab title="Transparente">
     <Frame>

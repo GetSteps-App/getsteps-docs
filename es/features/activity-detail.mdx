@@ -1,13 +1,12 @@
 ---
 title: "Detalle de actividad"
-description: "Visualiza estadísticas del entrenamiento, mapas de ruta, modo de reproducción y comparte o exporta tus actividades"
+description: "Visualiza estadísticas del entrenamiento, mapas de ruta, fotos, modo de reproducción y comparte o exporta tus actividades"
 ---
 
-La vista de Detalle de actividad te ofrece un desglose completo de cualquier entrenamiento registrado, incluyendo tu ruta, estadísticas y opciones para compartir.
+La vista de Detalle de actividad te ofrece un desglose completo de cualquier entrenamiento registrado, incluyendo tu ruta, estadísticas, fotos y opciones para compartir.
 
 ## Mapa de ruta
 
-{/* TODO: Screenshot of activity detail with route map and workout stats */}
 <Frame caption="Vista de detalle de actividad con mapa de ruta GPS y estadísticas del entrenamiento">
   <img src="/images/screenshots/activity-detail-route.jpg" alt="Activity detail with route map" />
 </Frame>
@@ -35,7 +34,7 @@ El pie de la hoja de estadísticas nombra el dispositivo que registró el entren
 
 Cuando tienes al menos dos entrenamientos anteriores del mismo tipo, la sección **Comparación** muestra cómo se posiciona este frente al promedio de tus últimos. Las sesiones de interior y exterior se comparan por separado. Cada fila muestra el promedio reciente, cuánto difiere este entrenamiento y una pequeña tendencia donde la última barra es esta sesión.
 
-Las métricas comparadas pueden incluir duración, distancia, energía activa, ritmo, frecuencia cardíaca promedio y [esfuerzo](#effort). La sección se oculta cuando no hay suficiente historial para calcular un promedio.
+Las métricas comparadas pueden incluir duración, distancia, energía activa, ritmo, frecuencia cardíaca promedio y [esfuerzo](#esfuerzo). La sección se oculta cuando no hay suficiente historial para calcular un promedio.
 
 ## Esfuerzo
 
@@ -52,7 +51,6 @@ Califica qué tan duro se sintió el entrenamiento en una escala de **1 a 10**. 
 
 ## Frecuencia cardíaca y zonas
 
-{/* TODO: Screenshot of heart rate chart and Time in Zones breakdown */}
 <Frame caption="Gráfico de frecuencia cardíaca con el desglose de Tiempo en zonas">
   <img src="/images/screenshots/activity-detail-heart-rate-zones.jpg" alt="Heart rate chart and zones" />
 </Frame>
@@ -73,7 +71,6 @@ Cada zona muestra el tiempo que pasaste en ella y su rango de frecuencia cardía
 
 ## Parciales
 
-{/* TODO: Screenshot of the splits table */}
 <Frame caption="Desglose por parcial con ritmo, tiempo y frecuencia cardíaca promedio">
   <img src="/images/screenshots/activity-detail-splits.jpg" alt="Workout splits table" />
 </Frame>
@@ -90,7 +87,6 @@ Una barra junto a cada parcial facilita comparar de un vistazo tus segmentos má
 
 <Note>La reproducción de ruta es una función Pro.</Note>
 
-{/* TODO: Screenshot of 3D route playback with the follow camera */}
 <Frame caption="Reproducción de ruta en 3D siguiendo el recorrido con una cámara cinematográfica">
   <video
     autoPlay
@@ -111,11 +107,27 @@ Abre **Ajustes del mapa** para personalizar la reproducción:
 - **Duración de la reproducción** — de **15 a 180 segundos**. Steps elige un valor predeterminado adecuado según la distancia de tu entrenamiento.
 - **Norte arriba** — deja el mapa apuntando al norte durante toda la reproducción, o deja que la cámara siga la dirección en la que te movías.
 
+## Fotos
+
+<Frame caption="Fotos añadidas a un entrenamiento, al final de la hoja de estadísticas">
+  <img src="/images/screenshots/activity-detail-photos.jpg" alt="Workout photos section" />
+</Frame>
+
+Añade a cualquier entrenamiento las fotos que tomaste por el camino. La sección **Fotos** está al final de la hoja de estadísticas.
+
+- **Añadir** — elige cualquier foto de tu fototeca, hasta 20 a la vez
+- **Buscar fotos tomadas durante este entrenamiento** — Steps busca en tu fototeca las fotos capturadas entre la hora de inicio y la de fin del entrenamiento. Las sugerencias aparecen en **Tomadas durante este entrenamiento**; toca una para añadirla, o toca **Añadir todas**
+
+Las fotos añadidas también aparecen como marcadores en el mapa de ruta, colocadas según cuándo (o dónde) las tomaste, y aparecen a lo largo del camino cuando el marcador las alcanza durante la [reproducción de ruta](#reproducción-de-ruta). Toca una foto para verla a pantalla completa.
+
+Para quitar una foto, mantenla pulsada y elige **Eliminar foto**. Steps guarda su propia copia de cada foto, así que quitarla de un entrenamiento nunca borra el original de tu fototeca.
+
+<Note>Para buscar fotos tomadas durante un entrenamiento, Steps necesita acceso a tu fototeca. Si no lo has permitido, Steps muestra un botón para abrir Ajustes. Añadir fotos con **Añadir** funciona sin acceso completo a la fototeca.</Note>
+
 ## Compartir tu entrenamiento
 
 Comparte tu entrenamiento como una imagen con estilo. Steps ofrece cuatro estilos para compartir:
 
-{/* TODO: 4 screenshots - one for each share style */}
 <Tabs>
   <Tab title="Transparente">
     <Frame>

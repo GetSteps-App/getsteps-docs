@@ -1,13 +1,12 @@
 ---
 title: "Dettaglio attività"
-description: "Visualizza le statistiche dell'allenamento, le mappe del percorso, la modalità di riproduzione e condividi o esporta le tue attività"
+description: "Visualizza le statistiche dell'allenamento, le mappe del percorso, le foto, la modalità di riproduzione e condividi o esporta le tue attività"
 ---
 
-La vista Dettaglio attività ti fornisce un resoconto completo di qualsiasi allenamento registrato, incluso il percorso, le statistiche e le opzioni di condivisione.
+La vista Dettaglio attività ti fornisce un resoconto completo di qualsiasi allenamento registrato, incluso il percorso, le statistiche, le foto e le opzioni di condivisione.
 
 ## Mappa del percorso
 
-{/* TODO: Screenshot of activity detail with route map and workout stats */}
 <Frame caption="Vista dettaglio attività con mappa del percorso GPS e statistiche dell'allenamento">
   <img src="/images/screenshots/activity-detail-route.jpg" alt="Activity detail with route map" />
 </Frame>
@@ -52,7 +51,6 @@ Valuta quanto è stato impegnativo l'allenamento su una scala da **1 a 10**. Il 
 
 ## Frequenza cardiaca e zone
 
-{/* TODO: Screenshot of heart rate chart and Time in Zones breakdown */}
 <Frame caption="Grafico della frequenza cardiaca con il dettaglio Tempo nelle zone">
   <img src="/images/screenshots/activity-detail-heart-rate-zones.jpg" alt="Heart rate chart and zones" />
 </Frame>
@@ -73,7 +71,6 @@ Ogni zona mostra il tempo trascorso al suo interno e il relativo intervallo di f
 
 ## Frazioni
 
-{/* TODO: Screenshot of the splits table */}
 <Frame caption="Dettaglio per frazione con ritmo, tempo e frequenza cardiaca media">
   <img src="/images/screenshots/activity-detail-splits.jpg" alt="Workout splits table" />
 </Frame>
@@ -90,9 +87,15 @@ Una barra accanto a ogni frazione facilita il confronto a colpo d'occhio tra i s
 
 <Note>La riproduzione del percorso è una funzionalità Pro.</Note>
 
-{/* TODO: Screenshot of 3D route playback with the follow camera */}
 <Frame caption="Riproduzione del percorso in 3D che segue il tracciato con una telecamera cinematografica">
-  <img src="/images/screenshots/activity-detail-route-playback.jpg" alt="3D route playback" />
+  <video
+    autoPlay
+    muted
+    loop
+    playsInline
+    className="w-full aspect-video rounded-xl"
+    src="/videos/route-3d.mp4"
+  ></video>
 </Frame>
 
 Riproduci il percorso del tuo allenamento in 3D per rivivere come ti sei mosso durante la sessione. Una telecamera cinematografica che segue il percorso entra in scena e poi scorre lungo il tuo tragitto, smussando ogni curva mentre traccia la tua posizione.
@@ -104,11 +107,27 @@ Apri **Impostazioni mappa** per personalizzare la riproduzione:
 - **Durata riproduzione** — da **15 a 180 secondi**. Steps sceglie un valore predefinito sensato in base alla distanza del tuo allenamento.
 - **Nord in alto** — lascia la mappa orientata a nord per tutta la riproduzione, oppure lascia che la telecamera segua la direzione in cui ti muovevi.
 
+## Foto
+
+<Frame caption="Foto allegate a un allenamento, in fondo al foglio delle statistiche">
+  <img src="/images/screenshots/activity-detail-photos.jpg" alt="Workout photos section" />
+</Frame>
+
+Aggiungi a qualsiasi allenamento le foto che hai scattato lungo il percorso. La sezione **Foto** si trova in fondo al foglio delle statistiche.
+
+- **Aggiungi** — scegli qualsiasi foto dalla tua libreria, fino a 20 alla volta
+- **Trova le foto scattate durante questo allenamento** — Steps cerca nella tua libreria le foto scattate tra l'orario di inizio e quello di fine dell'allenamento. I suggerimenti compaiono sotto **Scattate durante questo allenamento**; toccane una per allegarla, oppure tocca **Aggiungi tutte**
+
+Le foto allegate compaiono anche come pin sulla mappa del percorso, posizionate in base a quando (o dove) le hai scattate, e appaiono lungo il tragitto quando l'indicatore le raggiunge durante la [riproduzione del percorso](#riproduzione-del-percorso). Tocca una foto per vederla a schermo intero.
+
+Per rimuovere una foto, tienila premuta e scegli **Rimuovi foto**. Steps conserva una propria copia di ogni foto, quindi rimuoverla da un allenamento non elimina mai l'originale dalla tua libreria.
+
+<Note>Per trovare le foto scattate durante un allenamento serve l'accesso alla tua libreria foto. Se non l'hai consentito, Steps mostra un pulsante per aprire le Impostazioni. Aggiungere foto con **Aggiungi** funziona anche senza l'accesso completo alla libreria.</Note>
+
 ## Condivisione dell'allenamento
 
 Condividi il tuo allenamento come immagine stilizzata. Steps offre quattro stili di condivisione:
 
-{/* TODO: 4 screenshots - one for each share style */}
 <Tabs>
   <Tab title="Trasparente">
     <Frame>

@@ -1,13 +1,12 @@
 ---
 title: "Aktivitätsdetail"
-description: "Zeige Workout-Statistiken, Routenkarten, Wiedergabemodus an und teile oder exportiere deine Aktivitäten"
+description: "Zeige Workout-Statistiken, Routenkarten, Fotos, Wiedergabemodus an und teile oder exportiere deine Aktivitäten"
 ---
 
-Die Aktivitätsdetailansicht bietet dir eine vollständige Aufschlüsselung eines beliebigen aufgezeichneten Workouts, einschließlich deiner Route, Statistiken und Teilen-Optionen.
+Die Aktivitätsdetailansicht bietet dir eine vollständige Aufschlüsselung eines beliebigen aufgezeichneten Workouts, einschließlich deiner Route, Statistiken, Fotos und Teilen-Optionen.
 
 ## Routenkarte
 
-{/* TODO: Screenshot of activity detail with route map and workout stats */}
 <Frame caption="Aktivitätsdetailansicht mit GPS-Routenkarte und Workout-Statistiken">
   <img src="/images/screenshots/activity-detail-route.jpg" alt="Activity detail with route map" />
 </Frame>
@@ -52,7 +51,6 @@ Bewerte, wie anstrengend sich das Workout angefühlt hat, auf einer Skala von **
 
 ## Herzfrequenz & Zonen
 
-{/* TODO: Screenshot of heart rate chart and Time in Zones breakdown */}
 <Frame caption="Herzfrequenz-Diagramm mit der Aufschlüsselung „Zeit in Zonen“">
   <img src="/images/screenshots/activity-detail-heart-rate-zones.jpg" alt="Heart rate chart and zones" />
 </Frame>
@@ -73,7 +71,6 @@ Jede Zone zeigt die darin verbrachte Zeit und ihren Herzfrequenzbereich in bpm.
 
 ## Splits
 
-{/* TODO: Screenshot of the splits table */}
 <Frame caption="Aufschlüsselung pro Split mit Tempo, Zeit und durchschnittlicher Herzfrequenz">
   <img src="/images/screenshots/activity-detail-splits.jpg" alt="Workout splits table" />
 </Frame>
@@ -90,9 +87,15 @@ Ein Balken neben jedem Split macht es leicht, deine schnellsten und langsamsten 
 
 <Note>Routen-Wiedergabe ist eine Pro-Funktion.</Note>
 
-{/* TODO: Screenshot of 3D route playback with the follow camera */}
 <Frame caption="3D-Routen-Wiedergabe, die der Route mit einer cineastischen Kamera folgt">
-  <img src="/images/screenshots/activity-detail-route-playback.jpg" alt="3D route playback" />
+  <video
+    autoPlay
+    muted
+    loop
+    playsInline
+    className="w-full aspect-video rounded-xl"
+    src="/videos/route-3d.mp4"
+  ></video>
 </Frame>
 
 Spiele deine Workout-Route in 3D ab, um nachzuerleben, wie du dich durch deine Sitzung bewegt hast. Eine cineastische Verfolgungskamera schwenkt heran und gleitet dann entlang deines Weges, wobei sie jede Kurve geschmeidig durchläuft, während sie deiner Position folgt.
@@ -104,11 +107,27 @@ Spiele deine Workout-Route in 3D ab, um nachzuerleben, wie du dich durch deine S
 - **Wiedergabedauer** — von **15 bis 180 Sekunden**. Steps wählt einen sinnvollen Standardwert basierend auf der Distanz deines Workouts.
 - **Norden oben** — lass die Karte während der gesamten Wiedergabe nach Norden zeigen, oder lass die Kamera der Richtung folgen, in die du dich bewegt hast.
 
+## Fotos
+
+<Frame caption="An ein Workout angehängte Fotos am Ende der Statistikansicht">
+  <img src="/images/screenshots/activity-detail-photos.jpg" alt="Workout photos section" />
+</Frame>
+
+Füge jedem Workout die Fotos hinzu, die du unterwegs gemacht hast. Der Abschnitt **Fotos** befindet sich am Ende der Statistikansicht.
+
+- **Hinzufügen** — wähle beliebige Fotos aus deiner Mediathek, bis zu 20 auf einmal
+- **Während dieses Trainings aufgenommene Fotos suchen** — Steps durchsucht deine Mediathek nach Fotos, die zwischen Start und Ende des Workouts aufgenommen wurden. Vorschläge erscheinen unter **Während dieses Trainings aufgenommen**; tippe auf eines, um es anzuhängen, oder tippe auf **Alle hinzufügen**
+
+Angehängte Fotos erscheinen außerdem als Pins auf der Routenkarte, platziert danach, wann (oder wo) du sie aufgenommen hast, und tauchen während der [Routen-Wiedergabe](#routen-wiedergabe) auf, sobald die Markierung sie erreicht. Tippe auf ein Foto, um es im Vollbild anzusehen.
+
+Um ein Foto zu entfernen, halte es gedrückt und wähle **Foto entfernen**. Steps speichert eine eigene Kopie jedes Fotos, daher wird durch das Entfernen aus einem Workout nie das Original in deiner Mediathek gelöscht.
+
+<Note>Für die Suche nach Fotos, die während eines Workouts aufgenommen wurden, braucht Steps Zugriff auf deine Fotomediathek. Wenn du ihn nicht erlaubt hast, zeigt Steps eine Schaltfläche zum Öffnen der Einstellungen. Das Hinzufügen von Fotos über **Hinzufügen** funktioniert auch ohne vollen Zugriff auf die Mediathek.</Note>
+
 ## Workout teilen
 
 Teile dein Workout als gestaltetes Bild. Steps bietet vier Teilen-Stile:
 
-{/* TODO: 4 screenshots - one for each share style */}
 <Tabs>
   <Tab title="Transparent">
     <Frame>

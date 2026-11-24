@@ -9,7 +9,6 @@ Stepsを使えば、iPhoneから毎日の歩数、ワークアウト、フィッ
 
 Stepsを初めて開くと、すぐに使い始められるよう簡単なセットアップが始まります。
 
-{/* TODO: Screenshot of onboarding screen - step goal picker */}
 <Frame caption="Stepsオンボーディングフロー">
   <img src="/images/screenshots/getting-started-onboarding.jpg" alt="Stepsオンボーディング画面" />
 </Frame>
@@ -45,7 +44,6 @@ Stepsを初めて開くと、すぐに使い始められるよう簡単なセッ
 
 ## HealthKitの権限
 
-{/* TODO: Screenshot of HealthKit permissions dialog */}
 <Frame caption="Appleヘルスケアの権限リクエスト">
   <img src="/images/screenshots/getting-started-health-permissions.jpg" alt="HealthKit権限ダイアログ" />
 </Frame>
@@ -64,14 +62,14 @@ StepsはAppleヘルスケアから以下のデータを読み取ります：
 
 ## プライバシー
 
-ヘルスケアデータはデバイス上に保存されます。Stepsはフィットネスデータをサーバーにアップロードしません。すべての処理はiPhone上でローカルに行われます。
+ヘルスケアデータはデバイス上に保存されます。StepsはAppleヘルスケアからデータを読み取り、iPhone上で処理します。唯一の例外は[ステップボード](/ja/features/stepboard)です。参加を選んだ場合、毎日の歩数と距離がリーダーボードと共有されます。AI機能はApple Intelligenceによりオンデバイスで動作し、iOS 27ではAppleのPrivate Cloud Computeを使用する場合があります。
 
 ## ヘルスケアデータの再同期
 
 歩数が正しくない場合やデータが欠落している場合は、Appleヘルスケアから再同期できます：
 
 1. Stepsの**設定**を開く
-2. サポートセクションまでスクロール
+2. **ウィジェットとデータ**セクションまでスクロール
 3. **Appleヘルスケアデータを再同期**をタップ
 
 これにより、Appleヘルスケアからすべてのアクティビティデータが更新されます。

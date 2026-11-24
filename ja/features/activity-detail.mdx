@@ -1,13 +1,12 @@
 ---
 title: "アクティビティ詳細"
-description: "ワークアウトの統計、ルートマップ、再生モードの表示、アクティビティの共有・エクスポート"
+description: "ワークアウトの統計、ルートマップ、写真、再生モードの表示、アクティビティの共有・エクスポート"
 ---
 
-アクティビティ詳細画面では、記録されたワークアウトのルート、統計、共有オプションを含む完全な内訳を確認できます。
+アクティビティ詳細画面では、記録されたワークアウトのルート、統計、写真、共有オプションを含む完全な内訳を確認できます。
 
 ## ルートマップ
 
-{/* TODO: Screenshot of activity detail with route map and workout stats */}
 <Frame caption="GPSルートマップとワークアウト統計を表示するアクティビティ詳細画面">
   <img src="/images/screenshots/activity-detail-route.jpg" alt="ルートマップ付きアクティビティ詳細" />
 </Frame>
@@ -52,7 +51,6 @@ description: "ワークアウトの統計、ルートマップ、再生モード
 
 ## 心拍数とゾーン
 
-{/* TODO: Screenshot of heart rate chart and Time in Zones breakdown */}
 <Frame caption="ゾーン別時間の内訳付き心拍数チャート">
   <img src="/images/screenshots/activity-detail-heart-rate-zones.jpg" alt="Heart rate chart and zones" />
 </Frame>
@@ -73,7 +71,6 @@ description: "ワークアウトの統計、ルートマップ、再生モード
 
 ## スプリット
 
-{/* TODO: Screenshot of the splits table */}
 <Frame caption="ペース、時間、平均心拍数を含むスプリットごとの内訳">
   <img src="/images/screenshots/activity-detail-splits.jpg" alt="Workout splits table" />
 </Frame>
@@ -90,9 +87,15 @@ description: "ワークアウトの統計、ルートマップ、再生モード
 
 <Note>ルート再生はProの機能です。</Note>
 
-{/* TODO: Screenshot of 3D route playback with the follow camera */}
 <Frame caption="シネマティックなカメラでルートを追従する3Dルート再生">
-  <img src="/images/screenshots/activity-detail-route-playback.jpg" alt="3D route playback" />
+  <video
+    autoPlay
+    muted
+    loop
+    playsInline
+    className="w-full aspect-video rounded-xl"
+    src="/videos/route-3d.mp4"
+  ></video>
 </Frame>
 
 ワークアウトルートを3Dで再生して、セッション中の動きを追体験できます。シネマティックな追従カメラがスッと寄り、ルートに沿って滑らかに進みながら、すべてのターンをなめらかに描いてあなたの位置を追跡します。
@@ -104,11 +107,27 @@ description: "ワークアウトの統計、ルートマップ、再生モード
 - **再生時間** — **15〜180秒**。Stepsはワークアウトの距離に応じて適切なデフォルト値を選びます。
 - **北を上に** — 再生中ずっとマップを北向きに固定するか、移動していた方向にカメラを追従させるかを選べます。
 
+## 写真
+
+<Frame caption="統計シートの最後にある、ワークアウトに添付された写真">
+  <img src="/images/screenshots/activity-detail-photos.jpg" alt="Workout photos section" />
+</Frame>
+
+途中で撮った写真を、どのワークアウトにも追加できます。**写真**セクションは統計シートの最後にあります。
+
+- **追加** — ライブラリから好きな写真を選べます（一度に最大20枚）
+- **このワークアウト中に撮影した写真を探す** — ワークアウトの開始時刻から終了時刻までに撮影された写真を、Stepsがライブラリから探します。候補は**このワークアウト中に撮影**の下に表示されます。タップして添付するか、**すべて追加**をタップします
+
+添付した写真はルートマップ上にもピンとして表示され、撮影した時刻（または場所）に応じて配置されます。[ルート再生](#ルート再生)中は、マーカーがその地点に到達すると写真がポップアップします。写真をタップするとフルスクリーンで表示されます。
+
+写真を削除するには、写真を長押しして**写真を削除**を選びます。Stepsは各写真のコピーを独自に保存しているため、ワークアウトから削除してもライブラリ内の元の写真が削除されることはありません。
+
+<Note>ワークアウト中に撮影した写真を探すには、写真ライブラリへのアクセスが必要です。許可していない場合は、設定を開くボタンが表示されます。**追加**から写真を追加する場合は、ライブラリへのフルアクセスは不要です。</Note>
+
 ## ワークアウトの共有
 
 ワークアウトをスタイル付き画像として共有できます。Stepsには4つの共有スタイルがあります：
 
-{/* TODO: 4 screenshots - one for each share style */}
 <Tabs>
   <Tab title="透過">
     <Frame>

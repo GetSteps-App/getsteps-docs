@@ -1,13 +1,12 @@
 ---
 title: "活动详情"
-description: "查看锻炼统计数据、路线地图、回放模式，以及分享或导出您的活动"
+description: "查看锻炼统计数据、路线地图、照片、回放模式，以及分享或导出您的活动"
 ---
 
-活动详情视图为您提供任何已记录锻炼的完整分析，包括路线、统计数据和分享选项。
+活动详情视图为您提供任何已记录锻炼的完整分析，包括路线、统计数据、照片和分享选项。
 
 ## 路线地图
 
-{/* TODO: Screenshot of activity detail with route map and workout stats */}
 <Frame caption="活动详情视图，包含 GPS 路线地图和锻炼统计数据">
   <img src="/images/screenshots/activity-detail-route.jpg" alt="Activity detail with route map" />
 </Frame>
@@ -52,7 +51,6 @@ description: "查看锻炼统计数据、路线地图、回放模式，以及分
 
 ## 心率与区间
 
-{/* TODO: Screenshot of heart rate chart and Time in Zones breakdown */}
 <Frame caption="心率图表及区间用时分析">
   <img src="/images/screenshots/activity-detail-heart-rate-zones.jpg" alt="Heart rate chart and zones" />
 </Frame>
@@ -73,7 +71,6 @@ description: "查看锻炼统计数据、路线地图、回放模式，以及分
 
 ## 分段
 
-{/* TODO: Screenshot of the splits table */}
 <Frame caption="按分段细分，包含配速、时间和平均心率">
   <img src="/images/screenshots/activity-detail-splits.jpg" alt="Workout splits table" />
 </Frame>
@@ -90,9 +87,15 @@ description: "查看锻炼统计数据、路线地图、回放模式，以及分
 
 <Note>路线回放是 Pro 功能。</Note>
 
-{/* TODO: Screenshot of 3D route playback with the follow camera */}
 <Frame caption="以电影级镜头跟随路线的 3D 路线回放">
-  <img src="/images/screenshots/activity-detail-route-playback.jpg" alt="3D route playback" />
+  <video
+    autoPlay
+    muted
+    loop
+    playsInline
+    className="w-full aspect-video rounded-xl"
+    src="/videos/route-3d.mp4"
+  ></video>
 </Frame>
 
 以 3D 形式重播您的锻炼路线，重温您在整个过程中的移动轨迹。电影般的跟随镜头会俯冲而入，随后沿着您的路径平滑滑行，在追踪您位置的同时流畅地穿过每一个转弯。
@@ -104,11 +107,27 @@ description: "查看锻炼统计数据、路线地图、回放模式，以及分
 - **回放时长**——从 **15 到 180 秒**。Steps 会根据您锻炼的距离选择合理的默认值。
 - **北向上**——让地图在整个回放期间始终朝北，或让镜头跟随您当时的前进方向。
 
+## 照片
+
+<Frame caption="锻炼所附的照片，位于统计面板末尾">
+  <img src="/images/screenshots/activity-detail-photos.jpg" alt="Workout photos section" />
+</Frame>
+
+您可以为任何锻炼添加途中拍摄的照片。**照片**部分位于统计面板的末尾。
+
+- **添加**——从图库中选择任意照片，每次最多 20 张
+- **查找此次锻炼期间拍摄的照片**——Steps 会在您的图库中搜索在锻炼开始和结束时间之间拍摄的照片。建议的照片会显示在**此次锻炼期间拍摄**下方；点击其中一张即可附加，或点击**全部添加**
+
+附加的照片还会以图钉形式显示在路线地图上，并按拍摄时间（或地点）放置；在[路线回放](#路线回放)过程中，标记到达时照片会随之弹出。点击照片可全屏查看。
+
+要移除照片，请长按该照片并选择**移除照片**。Steps 会为每张照片保留一份副本，因此从锻炼中移除照片绝不会删除图库中的原始照片。
+
+<Note>查找锻炼期间拍摄的照片需要访问您的照片图库。如果您尚未允许，Steps 会显示一个打开设置的按钮。通过**添加**来添加照片则无需完整的图库访问权限。</Note>
+
 ## 分享锻炼
 
 以精美样式图像分享您的锻炼。Steps 提供四种分享样式：
 
-{/* TODO: 4 screenshots - one for each share style */}
 <Tabs>
   <Tab title="透明">
     <Frame>
